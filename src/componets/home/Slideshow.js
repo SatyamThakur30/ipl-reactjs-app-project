@@ -1,0 +1,48 @@
+import React, { Component } from 'react'
+import {Slide} from 'react-slideshow-image'
+import './slideshow.css'
+export default class Slideshow extends Component {
+
+       
+  render() {
+    return (
+     // eslint-disable-next-line react/jsx-no-comment-textnodes
+     <React.Fragment>
+  
+    <Slide {...properties} className="slide-container">
+    <div className="each-slide" >
+    <img className="slide-img" src={slideimages[0]} alt="slide">
+           </img> 
+            
+    </div>
+    <div className="each-slide">
+    <img className="slide-img" src={slideimages[1]} alt="slide">
+         </img>   
+            
+    </div>
+    <div className="each-slide">
+        <img className="slide-img" src={slideimages[2]} alt="slide">
+        </img>     
+       
+    </div>
+</Slide>
+
+</React.Fragment>
+    )
+  }
+}
+
+const slideimages = [
+    './slides/cskslide.jpeg',
+    'agra.jpg',
+    'kashmir.jpg',
+    'kerala.jpg'
+    ];
+   
+    const properties = {
+        duration:5000,
+        transitionDuration:500,
+        infinite:true,
+        indicators:true,
+        arrows:true
+    }

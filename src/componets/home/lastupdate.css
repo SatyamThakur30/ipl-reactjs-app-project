@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.lastupdate-container{
+ border: .1rem solid green;
+ padding: 0;
+ margin:2rem 35% 0 35%;
+ width:30%;
+ text-align: center;
+ align-self: center;
+ text-transform: capitalize;
+ 
+}
+.lastupdate-title{
+    color: white;
+    background-color: rgb(26, 58, 58);
+    padding:.5rem;
+    
+}
+.lastupdate-content{
+    padding: .75rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+@media screen and (max-width:800px){
+    .lastupdate-container{
+        width:60%;
+        margin:2rem 20% 0 20%;
+    }
+    .lastupdate-title{
+        font-size: .9rem;
+    
+    }
+    .lastupdate-content{
+        font-size: 1rem;
+    }
+
+}
+@media screen and (max-width:500px){
+    .lastupdate-container{
+        width: 90%;
+        margin:1.5rem 5% 0 5%;
+    }
+    .lastupdate-content{
+        font-size: 1.1rem;
+    }
+}

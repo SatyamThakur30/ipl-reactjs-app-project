@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+ border: .1rem solid green;
+ padding: 0;
+ margin:2rem 35% 0 35%;
+ width:30%;
+ text-align: center;
+ align-self: center;
+ text-transform: capitalize;
+ 
+}
+.titlenextmatch{
+    color: white;
+    background-color: rgb(26, 58, 58);
+    padding:.5rem;
+    
+}
+.content-container{
+    padding: .75rem;
+    font-size: 1.2rem;
+    
+}
+.content{
+    text-align: justify;
+}
+@media screen and (max-width:800px){
+    .container{
+        width:60%;
+        margin:2rem 20% 0 20%;
+    }
+    .titlenextmatch{
+        font-size: .9rem;
+    
+    }
+    .content-container{
+        font-size: 1rem;
+    }
+
+}
+@media screen and (max-width:500px){
+    .container{
+        width: 90%;
+        margin:1.5rem 5% 0 5%;
+    }
+    .content-container{
+        font-size: 1.1rem;
+    }
+}

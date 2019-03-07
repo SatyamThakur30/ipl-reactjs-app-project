@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.main-container{
+ border: .1rem solid green;
+ padding: 0;
+ margin:5rem 35% 0 35%;
+ width:30%;
+ text-align: center;
+ align-self: center;
+ 
+}
+.title{
+    color: rgb(221, 16, 16);
+    background-color: palegreen;
+    padding:.5rem;
+}
+.score{
+    padding: .75rem;
+    font-size: 1.2rem;
+    
+}
+@media screen and (max-width:800px){
+    .main-container{
+        width:60%;
+        margin:5rem 20% 0 20%;
+    }
+    .title{
+        font-size: 1rem;
+    
+    }
+    .score{
+        font-size: 1rem;
+    }
+
+}
+@media screen and (max-width:500px){
+    .main-container{
+        width: 90%;
+        margin:5rem 5% 0 5%;
+    }
+    .score{
+        font-size: 1.1rem;
+    }
+}

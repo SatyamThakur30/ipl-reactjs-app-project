@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-container{
+    background-color: black;
+    color: whitesmoke;
+    display:grid;
+    grid-template-columns: auto 1fr;
+    text-align: center;
+     padding: 1rem 4rem 1rem 1.5rem;
+     position:sticky;
+     top: 0%;
+     z-index: 4;
+
+}
+.linklist{
+    list-style: none;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    align-self: center;
+    
+}
+.link{
+    cursor: pointer;
+    margin-left: 2rem;
+}
+.link:hover{
+    color: palegreen;
+
+
+}
+:active{
+    color: green;
+}
