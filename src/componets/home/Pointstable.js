@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import pointstable from './Pointsdata'
+import './poinstable.css'
 export default class Pointstable extends Component {
    
     state={
@@ -18,13 +19,13 @@ export default class Pointstable extends Component {
     
     return (
         
-      <div>
+      <div className="pt-container">
        <section>
-       <h2><strong>Points Table</strong></h2>
+       <h2><strong></strong></h2>
        </section>
         <table>
             <tbody>
-                <tr className="main-row">
+                <tr className="main-pt-row">
                     <td>Rank</td>
                     <td>Team</td>
                     <td>Played</td>

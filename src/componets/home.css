@@ -1,0 +1,15 @@
+/* *{
+    box-sizing: border-box;
+}
+.container-main{
+    display: grid;
+    grid-template-columns:repeat(1,6fr);
+    grid-column-gap: 0ch;
+}
+@media screen and (max-width:800px){
+    .container-main{
+        display:grid;
+       
+        grid-template-columns: auto;
+    }
+} */

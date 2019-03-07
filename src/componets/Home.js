@@ -5,27 +5,40 @@ import Pointstable from './home/Pointstable'
 import Score from './home/Score'
 import Nextmatch from './home/Nextmatch'
 import Lastupdate from './home/Lastupdate'
+import Capholder from './home/Capholder'
+import './home.css'
 export default class Home extends Component {
   render() {
     return (
    <React.Fragment>
-     <div>
+     
      <Slideshow></Slideshow>
-     </div>
+
      <Score></Score>
-     <div>
+     <div className="container-main">
+       <section>
        <Nextmatch></Nextmatch>
+    
+    <Lastupdate></Lastupdate>
+       </section>
+      
+       <Capholder></Capholder>
      </div>
-     <div>
-       <Lastupdate></Lastupdate>
-     </div>
-     <div>
-       <Fixtures></Fixtures>
-     </div>
-     <div>
+       
+     
+  
+    
+     
+   
+    
+   
        <Pointstable></Pointstable>
-     </div>
+     
+   
+       <Fixtures></Fixtures>
+       
    </React.Fragment>
     )
   }
 }
+ 
