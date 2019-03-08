@@ -7,18 +7,6 @@ export default class score extends Component {
     liveData:[],
     url:"https://cricapi.com/api/cricket?apikey=C0Tghs88nXXhq2vowKCJr6QkeZV2"
    }
-<<<<<<< HEAD
-  // async componentDidMount(){
-  // try {
-  //   const data = await fetch(this.state.url);
-  //   const jsonData = await data.json();
-  //   const filterData = jsonData.data.filter((item)=>item.unique_id ==1175026 )
-  //   this.setState({
-  //     liveData:filterData
-  //   })
-  // } catch (error) {
-  //   console.log(error);
-=======
   async componentDidMount(){
   try {
     const data = await fetch(this.state.url);
@@ -29,20 +17,10 @@ export default class score extends Component {
     })
   } catch (error) {
     console.log(error);
->>>>>>> 03218699314dd54351b1d442bdbe4a268ac06fcc
     
   }
   
 
-<<<<<<< HEAD
-  // }
-   componentDidMount(){
-    const filterdata = this.state.liveData.filter((item)=>item.unique_id ==1144168);
-    this.setState({
-      liveData:filterdata
-    })
-=======
->>>>>>> 03218699314dd54351b1d442bdbe4a268ac06fcc
   }
 //   componentDidMount(){
 //     const filterdata = this.state.liveData.filter((item)=>item.unique_id ==1144168);
