@@ -16,13 +16,17 @@ export default class Home extends Component {
 
      <Score></Score>
      <div className="container-main">
-       <section>
-       <Nextmatch></Nextmatch>
+    <section className="matchcontent">
+    <Nextmatch></Nextmatch>
     
     <Lastupdate></Lastupdate>
-       </section>
-      
-       <Capholder></Capholder>
+    </section>   
+    <section className="capholdercontent">
+    <Capholder></Capholder> 
+    </section>
+    
+   
+       
      </div>
        
      

@@ -3,8 +3,11 @@
 }
 .container-main{
     display: grid;
-    grid-template-columns:repeat(1,6fr);
+    grid-template-columns:repeat(2,1fr);
     grid-column-gap: 0ch;
+}
+.matchcontent{
+    margin-left: 20rem;
 }
 @media screen and (max-width:800px){
     .container-main{
