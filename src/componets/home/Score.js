@@ -11,7 +11,7 @@ export default class score extends Component {
   try {
     const data = await fetch(this.state.url);
     const jsonData = await data.json();
-    const filterData = jsonData.data.filter((item)=>item.unique_id ==1168244 )
+    const filterData = jsonData.data.filter((item)=>item.unique_id ==1172165 )
     this.setState({
       liveData:filterData
     })
@@ -23,7 +23,7 @@ export default class score extends Component {
 
   }
 //   componentDidMount(){
-//     const filterdata = this.state.liveData.filter((item)=>item.unique_id ==1144168);
+//     const filterdata = this.state.liveData.filter((item)=>item.unique_id ==1172165);
 //     this.setState({
 //       liveData:filterdata
 //     })
