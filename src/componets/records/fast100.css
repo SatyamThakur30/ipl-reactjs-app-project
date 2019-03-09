@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.reactfragment{
+    width:50%;
+    margin:4rem 0 1rem 10%;
+    text-transform: capitalize;
+}
+.reactfragment h2{
+    font-size:1.9rem; 
+    margin-bottom: 1rem;
+}
+.fast100-mainrow{
+    background-color: midnightblue;
+    color:white;
+    font-size: 1.2rem;
+
+
+}
+
+@media screen and (max-width:800px){
+    .reactfragment{
+        width: 80%;
+        margin:2rem 0 1rem 5%;
+    }
+    .reactfragment h2{
+        font-size: 1.6rem;
+    }
+    .fast100-mainrow td{
+        font-size:1.1rem;
+        padding: .5rem;
+    }
+    .fast100content td{
+        font-size: 1rem;
+    }
+ 
+}
+@media screen and (max-width:500px){
+    .reactfragment{
+       width:90%;
+       margin:2rem 10% 0 0;
+      
+    }
+   
+    .fast100overflow{
+        overflow-x: scroll;
+      
+    }
+    .fast100-mainrow td{
+        font-size:1rem;
+    }
+    .fast100content td{
+        font-size: .85rem;
+    }
+}

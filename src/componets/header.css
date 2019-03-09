@@ -6,12 +6,15 @@
 a{
     text-decoration: none;
 }
+.header-content{
+    background-image: linear-gradient(to top right,rgb(4, 4, 51),rgb(37, 37, 134));
+}
 .header-container{
     margin: 3rem 0 0 0;
-    background-color: darkslategray;
+    
 }
 .tothetop{
-    background-color: cadetblue;
+    background-image: linear-gradient(to top ,rgb(17, 31, 19),rgb(79, 79, 163));
     font-size: 1.2rem;
     padding: 1rem;
     text-align: center;

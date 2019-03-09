@@ -5,8 +5,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
 .navbar-container{
-    background-color: black;
+  background-image: linear-gradient(to right,rgb(4, 4, 51),rgb(37, 37, 134));
+  
     color: whitesmoke;
     display:grid;
     grid-template-columns: auto 1fr;
@@ -21,7 +23,8 @@
     display:grid;
     grid-template-columns:repeat(3,1fr);
     align-self: center;
-    
+    font-size: 1.6rem;
+    line-height: 1.2rem;
 }
 .link{
     color: white;
@@ -35,4 +38,18 @@
 }
 :active{
     color: green;
+}
+@media screen and (max-width:500px){
+    .navbar-container{
+        position: sticky;
+        position: -webkit-sticky;
+        top:0rem;
+        z-index: 2;
+    }
+    .linklist{
+        font-size: 1rem;
+    }
+    .link{
+        margin-left: 1rem;
+    }
 }
