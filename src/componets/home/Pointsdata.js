@@ -1,6 +1,7 @@
 const pointstable = [
     {
         team:"CSK",
+        logo:"./teamslogo/csk.png",
         played:0,
         won:0,
         loss:0,
@@ -9,6 +10,7 @@ const pointstable = [
     },
     {
         team:"MI",
+        logo:"./teamslogo/mi.png",
         played:0,
         won:0,
         loss:0,
@@ -17,6 +19,7 @@ const pointstable = [
     },
     {
         team:"RCB",
+        logo:"./teamslogo/rcb.png",
         played:0,
         won:0,
         loss:0,
@@ -25,6 +28,7 @@ const pointstable = [
     },
     {
         team:"SRH",
+        logo:"./teamslogo/srh.png",
         played:0,
         won:0,
         loss:0,
@@ -33,6 +37,7 @@ const pointstable = [
     },
     {
         team:"RR",
+        logo:"./teamslogo/rrr.png",
         played:0,
         won:0,
         loss:0,
@@ -41,6 +46,7 @@ const pointstable = [
     },
     {
         team:"KKR",
+        logo:"./teamslogo/kkr.png",
         played:0,
         won:0,
         loss:0,
@@ -49,6 +55,7 @@ const pointstable = [
     },
     {
         team:"DC",
+        logo:"./teamslogo/dc.png",
         played:0,
         won:0,
         loss:0,
@@ -57,6 +64,7 @@ const pointstable = [
     },
     {
         team:"KXIP",
+        logo:"./teamslogo/pj.png",
         played:0,
         won:0,
         loss:0,

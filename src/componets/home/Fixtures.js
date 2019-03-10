@@ -13,6 +13,7 @@ export default class Fixtures extends Component {
     return (
       <React.Fragment>
           <section className="table-container">
+          <h2>Fixtures</h2>
           <table >
             <tbody>
             <tr className="main-row">

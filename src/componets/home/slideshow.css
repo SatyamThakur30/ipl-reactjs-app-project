@@ -13,6 +13,10 @@
     height:35rem;
     margin:0 4rem 0 0rem;
 }
+.slide-img{
+    width:100%;
+    height:100%;
+}
 
 @media screen and (max-width:800px){
     .slide-container{
@@ -30,7 +34,7 @@
 @media screen and (max-width:500px){
     .slide-container{
         width: 90vw;
-        margin:1.2rem 2.6rem 0 1.2rem;
+        margin:1.2rem 3.1rem 0 .7rem;
     }
     .each-slide{
         width:100%;

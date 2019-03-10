@@ -2,15 +2,38 @@
     box-sizing: border-box;
 }
 .pt-container{
-    margin:2rem 20% 0 20%;
+    margin:2rem auto 0 16%;
     width:60%;
+ 
+    
 }
 .main-pt-row{
     background-color:rgb(9, 9, 95);
     color: white;
+    font-size: 1.4rem;
+}
+@media screen and (max-width:800px){
+    .pt-container{
+        width: 80%;
+        margin: 2rem 10% 0 10%;
+    }
+    .main-pt-row td{
+        font-size: 1.1rem; 
+    }
+    td{
+        font-size: .85rem;
+    }
 }
 @media screen and (max-width:500px){
     .pt-container{
-        margin:2rem 25% 0 15%;
+        margin:2rem auto 0 7.5%;
+        overflow-x: scroll;
+        width: 85%;
+    }
+    .main-pt-row td{
+        font-size: .9rem;
+    }
+    td{
+        font-size: .8rem;
     }
 }

@@ -3,11 +3,11 @@
 
 }
 .main-capholder-container{
-    border: .1rem solid rgb(9, 15, 9);
+    box-shadow: 2px 2px 20px 2px rgb(112, 182, 173);
     border-top: 0;
     padding: 0;
-    margin:2rem 35% 0 35%;
-    width:30%;
+    /* margin:2rem 35% 0 35%; */
+    /* width:30%; */
     text-align: center;
     align-self: center;
     text-transform: capitalize;
@@ -16,8 +16,8 @@
 
 .cap-title{
     font-size: 1.2rem;
-    background-color: rgb(34, 68, 70);
-    padding: 0%;
+    background-image: linear-gradient(to right top,rgb(6, 6, 49),rgb(14, 14, 136));
+    padding-top: .2rem;
     color: white;
     text-align: left;
     align-self:center;

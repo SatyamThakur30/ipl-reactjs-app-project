@@ -25,6 +25,31 @@ export default class Slideshow extends Component {
         </img>     
        
     </div>
+    <div className="each-slide">
+        <img className="slide-img" src={slideimages[3]} alt="slide">
+        </img>     
+       
+    </div>
+    <div className="each-slide">
+        <img className="slide-img" src={slideimages[4]} alt="slide">
+        </img>     
+       
+    </div>
+    <div className="each-slide">
+        <img className="slide-img" src={slideimages[5]} alt="slide">
+        </img>     
+       
+    </div>
+    <div className="each-slide">
+        <img className="slide-img" src={slideimages[6]} alt="slide">
+        </img>     
+       
+    </div>
+    <div className="each-slide">
+        <img className="slide-img" src={slideimages[7]} alt="slide">
+        </img>     
+       
+    </div>
 </Slide>
 
 </React.Fragment>
@@ -33,10 +58,15 @@ export default class Slideshow extends Component {
 }
 
 const slideimages = [
-    './slides/cskslide.jpeg',
-    'agra.jpg',
-    'kashmir.jpg',
-    'kerala.jpg'
+    './slides/csk.jpeg',
+    './slides/mi.jpeg',
+    './slides/rcb.jpg',
+    './slides/kkr.jpeg',
+    './slides/pj.jpg',
+    './slides/srh.jpg',
+    './slides/rr.jpg',
+    './slides/dd.jpeg',
+
     ];
    
     const properties = {

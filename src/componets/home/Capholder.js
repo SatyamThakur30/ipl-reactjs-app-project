@@ -25,12 +25,13 @@ export default class CapHolder extends Component {
             </section>
            <section className="cap-content">
             
-               <img src={item.image} alt="pic" width="60" height="70"></img>
+               <img src={item.image} alt="pic" width="80" height="90"></img>
                <section>
                <p>{item.name}</p>
                <p>{item.team}</p>
                <p>{item.run}</p>
-               <p>{item.wicket}</p>
+                <p>{item.wicket}</p>
+              <p>{item.matches}</p>
                </section>
              
            </section>

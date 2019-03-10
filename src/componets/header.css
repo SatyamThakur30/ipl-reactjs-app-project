@@ -39,11 +39,11 @@ a{
     text-align: center;
     align-self: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2rem
+    font-size: 1rem
 }
 .discrimer{
     padding: .3rem;
-    color: aliceblue;
+    color:black;
     font-size: .8rem;
     text-align: center;
 }

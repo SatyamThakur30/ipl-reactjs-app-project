@@ -56,8 +56,9 @@ td{
 }
  @media screen and (max-width:500px){
      .table-container{
-         width:100%;
-         margin:2rem 0 0 0;
+         width:98%;
+         margin:2rem 1% 0 1%;
+         overflow-x: scroll;
      }
    
  }

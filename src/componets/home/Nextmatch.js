@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import Fixturesdata from './Fixturesdata'
+import Lastupdate from './Lastupdate'
+import Capholder from './Capholder'
 import './nextmatch.css'
+
 export default class Nextmatch extends Component {
    state= {
        data:Fixturesdata
@@ -24,7 +27,10 @@ export default class Nextmatch extends Component {
    
       
     return (
-      <div className="container">
+     <div className="next-last-container">
+     
+        <div className="container">
+        
       <section className="titlenextmatch">
           <h2>Upcoming Match</h2>
       </section>
@@ -44,8 +50,10 @@ export default class Nextmatch extends Component {
               )
           })
       }
-       
+      <Lastupdate ></Lastupdate>
       </div>
+      <Capholder></Capholder>
+     </div>
     )
   }
 }
