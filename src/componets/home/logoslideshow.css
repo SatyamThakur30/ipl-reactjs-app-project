@@ -48,10 +48,10 @@
 }
 @media screen and (max-width:500px){
     #logoslide-container{
-        width: 98%;
-        margin:2rem auto auto auto;
+        width:98%;
+        margin:2rem 2% auto auto;
       height: 4rem;
-      
+     
          
      }
      #each-slide{
@@ -64,4 +64,5 @@
          height: 4rem;
      
      }
+    
 }

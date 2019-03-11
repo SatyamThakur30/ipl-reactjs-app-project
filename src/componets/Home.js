@@ -10,7 +10,8 @@ export default class Home extends Component {
   render() {
     return (
    <React.Fragment>
-     <Score></Score>
+    <div style={{overflowX:"hidden"}}>
+    <Score></Score>
      <Slideshow></Slideshow>
 
     
@@ -40,6 +41,7 @@ export default class Home extends Component {
    
        <Fixtures></Fixtures>
        <Logoslideshow></Logoslideshow>
+    </div>
    </React.Fragment>
     )
   }

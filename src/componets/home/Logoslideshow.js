@@ -4,7 +4,7 @@ import './logoslideshow.css'
 export default class Logoslideshow extends Component {
   render() {
     return (
-      <div>
+      <div id="logoslideshowid">
         <Slide {...properties} className="slide-container" id="logoslide-container" >
             <div className="each-slide" id="each-slide">
           <section className="slide-img" id="slide-img">

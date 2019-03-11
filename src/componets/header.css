@@ -56,3 +56,15 @@ a{
         grid-template-columns: repeat(4,2fr)
     }
 }
+@media screen and (max-width:500px){
+    .discrimer{
+        padding: .3rem;
+        color:black;
+        font-size: .6rem;
+        text-align: center;
+    }
+    .content1 a{
+        color: whitesmoke;
+        font-size: .7rem;
+    }
+}
