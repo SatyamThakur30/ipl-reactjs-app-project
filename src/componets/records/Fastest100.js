@@ -29,7 +29,7 @@ export default class Fastest100 extends Component {
                              <td>{index+1}</td>
                              <td>{item.name}</td>
                              <td>{item.team}</td>
-                             <td>{item.balls}</td>
+                             <td style={{backgroundColor:" rgb(158, 154, 154)"}}><strong>{item.balls}</strong></td>
                              <td>{item.opp}</td>
                              <td>{item.season}</td>
                          </tr>

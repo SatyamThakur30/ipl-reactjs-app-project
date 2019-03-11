@@ -29,7 +29,7 @@ export default class Fastest100 extends Component {
                              <td>{index+1}</td>
                              <td>{item.name}</td>
                              <td>{item.inn}</td>
-                             <td>{item.sixes}</td>
+                             <td style={{backgroundColor:" rgb(158, 154, 154)"}}><strong>{item.sixes}</strong></td>
                              <td>{item.span}</td>
                             
                          </tr>

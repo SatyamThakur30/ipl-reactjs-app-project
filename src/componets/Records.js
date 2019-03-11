@@ -9,10 +9,12 @@ import Highesttotal from './records/Highesttotal'
 import Lowesttotal from './records/Lowesttotal'
 import Mostsix from './records/Mostsix'
 import Mixrecord from './records/Mixrecord'
+import Recordslideshow from './records/Recordslideshow'
 export default class Records extends Component {
   render() {
     return (
       <div>
+      <Recordslideshow></Recordslideshow>
       <Teams></Teams>
         <Mostrun></Mostrun>
         <Fastest100></Fastest100>

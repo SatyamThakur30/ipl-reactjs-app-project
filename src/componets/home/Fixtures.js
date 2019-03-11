@@ -28,7 +28,7 @@ export default class Fixtures extends Component {
                  return(
                      <tr>
                          <td>{info.id}</td>
-                         <td>{info.teams}</td>
+                         <td><strong>{info.teams}</strong></td>
                          <td>{info.date}</td>
                          <td>{info.timing}</td>
                          <td>{info.venue}</td>

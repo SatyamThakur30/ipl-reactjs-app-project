@@ -11,9 +11,9 @@ export default class Header extends Component {
         </a>
        <section className="header-content">
        <section className="content1">
-          <a href="#home"><span>ipl11</span></a>
-          <a href="#home"><span>Github</span></a>
-          <a href="#home"><span>&nbsp;&nbsp;&nbsp;Feedback</span></a>
+          <a href="https://vivoipl2019schedule.co.in/" target="blank"><i class="fas fa-external-link-alt"></i><span>&nbsp;IPL Officials</span></a>
+          <a href="https://github.com/SatyamThakur30/" target="blank"><i class="fab fa-github"></i><span>&nbsp;Github</span></a>
+          <a href="#home"><i class="fas fa-comments"></i><span>&nbsp;&nbsp;&nbsp;Feedback</span></a>
            
         </section>  
        <section className="dev"><p>Afforted By: Satyam Thakur</p></section>

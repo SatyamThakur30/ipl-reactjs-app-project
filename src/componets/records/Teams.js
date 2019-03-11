@@ -27,13 +27,13 @@ export default class Fastest100 extends Component {
                  this.state.data.map((item)=>{
                      return(
                          <tr className="fast100content">
-                             <td>{item.team}</td>
+                         <td className="batsmenname"><img src ={item.logo} alt="logo" width="40" height="40"></img><p style={{alignSelf:"center"}}>{item.team}</p></td>
                              <td>{item.span}</td>
                              <td>{item.match}</td>
                              <td>{item.won}</td>
                              <td>{item.lost}</td>
-                             <td>{item.win}</td>
-                             <td>{item.titles}</td>
+                             <td style={{backgroundColor:" rgb(158, 154, 154)"}}><strong>{item.win}</strong></td>
+                             <td><strong>{item.titles}</strong></td>
                          </tr>
                      )
                  })

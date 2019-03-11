@@ -32,7 +32,7 @@ export default class Fastest100 extends Component {
                              
                              <td className="batsmenname" ><img src={item.logo} alt="logo" width="40" height="40"></img><p style={{alignSelf:"center"}}>{item.team}</p></td>
                              <td>{item.inn}</td>
-                             <td>{item.wkts}</td>
+                             <td style={{backgroundColor:" rgb(158, 154, 154)"}}><strong>{item.wkts}</strong></td>
                              <td>{item.span}</td>
                             
                          </tr>

@@ -2,6 +2,7 @@ const teamWins = [
     {
         team:"CSK",
         span:"2008-18",
+        logo:"./teamslogo/csk.png",
         match:150,
         won:91,
         lost:57,
@@ -11,6 +12,7 @@ const teamWins = [
     {
         team:"MI",
         span:"2008-18",
+        logo:"./teamslogo/mi.png",
         match:171,
         won:97,
         lost:73,
@@ -20,6 +22,7 @@ const teamWins = [
     {
         team:"SRH",
         span:"2013-18",
+        logo:"./teamslogo/srh.png",
         match:93,
         won:51,
         lost:41,
@@ -28,6 +31,7 @@ const teamWins = [
     },{
         team:"KKR",
         span:"2008-18",
+        logo:"./teamslogo/kkr.png",
         match:162,
         won:85,
         lost:75,
@@ -36,6 +40,7 @@ const teamWins = [
     },{
         team:"RR",
         span:"2008-18",
+        logo:"./teamslogo/rrr.png",
         match:132,
         won:68,
         lost:60,
@@ -44,6 +49,7 @@ const teamWins = [
     },{
         team:"RPS",
         span:"2016-17",
+        logo:"./teamslogo/rps.png",
         match:30,
         won:15,
         lost:25,
@@ -52,6 +58,7 @@ const teamWins = [
     },{
         team:"RCB",
         span:"2008-18",
+        logo:"./teamslogo/rcb.png",
         match:167,
         won:78,
         lost:84,
@@ -60,6 +67,7 @@ const teamWins = [
     },{
         team:"KXIP",
         span:"2008-18",
+        logo:"./teamslogo/pj.png",
         match:162,
         won:74,
         lost:86,
@@ -67,7 +75,9 @@ const teamWins = [
         titles:0,
     },{
         team:"Gujrat Lions",
+    
         span:"2016-17",
+        logo:"./teamslogo/gl.png",
         match:30,
         won:13,
         lost:16,
@@ -76,6 +86,7 @@ const teamWins = [
     },{
         team:"Kochi Tuskers",
         span:"2011-11",
+        logo:"./teamslogo/kt.png",
         match:14,
         won:6,
         lost:8,
@@ -84,6 +95,7 @@ const teamWins = [
     },{
         team:"Delhi Capitals",
         span:"2008-2018",
+        logo:"./teamslogo/dc.png",
         match:161,
         won:67,
         lost:91,
@@ -92,6 +104,7 @@ const teamWins = [
     },{
         team:"Deccan charger",
         span:"2008-12",
+        logo:"./teamslogo/decc.png",
         match:75,
         won:29,
         lost:46,
@@ -101,6 +114,7 @@ const teamWins = [
     {
         team:"Pune Warriors",
         span:"2011-13",
+        logo:"./teamslogo/pwi.png",
         match:46,
         won:12,
         lost:33,
