@@ -7,7 +7,7 @@ const capHolder = [
         name:"Kane williamson",
         run:"Run : 735",
         matches:"Matches: 17",
-        team:"CSK"
+        team:"SRH"
     },
     {
         id:2,
