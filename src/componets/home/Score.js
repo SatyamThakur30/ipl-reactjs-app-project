@@ -19,7 +19,7 @@ export default class score extends Component {
   } catch (error) {
     console.log(error);
 
-
+  }
 //   componentDidMount(){
 //     const filterdata = this.state.liveData.filter((item)=>item.unique_id ==1144168);
 //     this.setState({
