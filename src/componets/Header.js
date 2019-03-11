@@ -18,7 +18,7 @@ export default class Header extends Component {
         </section>  
        <section className="dev"><p>Afforted By: Satyam Thakur</p></section>
       </section>
-      <section className="discrimer"><p><strong>Discrimer:This site is build as project and source code is available on GITHUB, in case of any copyright issue please contact us. We will tackle it soon.</strong></p></section>
+      <section className="discrimer"><p><strong>disclaimer: Source code of this site is available on GITHUB, in case of any copyright issue please contact us. We will tackle it as soon as soon as possible.</strong></p></section>
       
       </div>
     )
