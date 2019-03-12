@@ -5,7 +5,7 @@
         date:"23rd march",
         timing:"8:00 PM",
         venue:"MA Chepauk stadium chennai",
-        winner:"CSK"
+        winner:"-"
      }, 
      {
          id:2,
