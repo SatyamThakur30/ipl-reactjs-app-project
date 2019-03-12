@@ -4,25 +4,19 @@ export default class Form extends Component {
   render() {
     return (
     
-      <div>
+      <div className="form-container">
     <form name="contact" method="POST" data-netlify="true">
   <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
+    <label> <input type="text" name="name" placeholder="Name"/></label>   
   </p>
   <p>
-    <label>Your Email: <input type="email" name="email" /></label>
+    <label> <input type="email" name="email" placeholder="E-mail"/></label>
+  </p>
+   <p>
+    <label><textarea name="message"></textarea></label>
   </p>
   <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
+    <button type="submit"><i className="fa fa-paper-plane"></i><strong>&nbsp;Send Message</strong></button>
   </p>
 </form>
       </div>

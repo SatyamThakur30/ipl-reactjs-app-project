@@ -11,7 +11,7 @@ a{
 }
 .header-container{
     margin: 3rem 0 0 0;
-  
+   overflow-x: hidden;
    
     
 }
