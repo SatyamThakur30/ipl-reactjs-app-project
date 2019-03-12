@@ -13,7 +13,7 @@ export default class Form extends Component {
     <label> <input type="email" name="email" placeholder="E-mail"/></label>
   </p>
    <p>
-    <label><textarea name="message"></textarea></label>
+    <label><textarea name="message" placeholder="Message"></textarea></label>
   </p>
   <p>
     <button type="submit"><i className="fa fa-paper-plane"></i><strong>&nbsp;Send Message</strong></button>
