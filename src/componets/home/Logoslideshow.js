@@ -38,7 +38,7 @@ const slidesimages =[
     "./teamslogo/srh.png",
 ]
 const properties = {
-    duration:3000,
+    duration:2000,
     transitionDuration:500,
     infinite:true,
     indicators:false,
