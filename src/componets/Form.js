@@ -5,7 +5,7 @@ export default class Form extends Component {
     return (
     
       <div className="form-container">
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
   <p>
     <label> <input type="text" name="name" placeholder="Name"/></label>   
   </p>
