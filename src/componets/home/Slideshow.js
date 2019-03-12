@@ -70,7 +70,7 @@ const slideimages = [
     ];
    
     const properties = {
-        duration:3000,
+        duration:4500,
         transitionDuration:500,
         infinite:true,
         indicators:true,
