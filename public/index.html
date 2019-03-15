@@ -31,24 +31,31 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root">
-     <form  name="contact" method="POST" netlify data-netlify-recaptcha="true">
+    <div id="root"></div>
+
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+
+
+
+ 
+      
+       
          
-            <label>
-             <input type="text" name="name" value=name placeholder="Name" />
-            </label><br/>
-         
-            <label>
-              <input type="email" name="email" value= email placeholder="E-mail" />
-            </label><br/>
+        
+
+
           
-            <label>
-             <textarea name="message" value=message placeholder="Message"  />
-            </label><br/>
-            <div className="recaptcha" data-netlify-recaptcha="true"></div>
-            <button type="submit"><i className="fa fa-paper-plane"></i><strong>&nbsp;Send Message</strong></button>
-          
-        </form></div>
+     
+
+        
+
+
+
+   
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
