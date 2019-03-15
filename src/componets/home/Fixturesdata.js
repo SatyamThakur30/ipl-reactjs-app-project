@@ -5,7 +5,7 @@
         date:"23rd march",
         timing:"8:00 PM",
         venue:"MA Chepauk stadium chennai",
-        winner:"CSK"
+        winner:"-"
      }, 
      {
          id:2,
@@ -400,29 +400,29 @@
       venue:"Eaden Garden",
       winner:"-"
    },
-   {
-      id:51,
-      teams:"MI VS KXIP",
-      date:"8th May",
-      timing:"8:00 PM",
-      venue:"Wankhede",
-      winner:"-"
-   },
-   {
-      id:52,
-      teams:"RCB VS RR",
-      date:"9th May",
-      timing:"8:00 PM",
-      venue:"Bengaluru",
-      winner:"-"
-   },
-   {
-      id:53,
-      teams:"",
-      date:"",
-      timing:"",
-      venue:"",
-      winner:"-"
-   },
+   // {
+   //    id:51,
+   //    teams:"MI VS KXIP",
+   //    date:"8th May",
+   //    timing:"8:00 PM",
+   //    venue:"Wankhede",
+   //    winner:"-"
+   // },
+   // {
+   //    id:52,
+   //    teams:"RCB VS RR",
+   //    date:"9th May",
+   //    timing:"8:00 PM",
+   //    venue:"Bengaluru",
+   //    winner:"-"
+   // },
+   // {
+   //    id:53,
+   //    teams:"",
+   //    date:"",
+   //    timing:"",
+   //    venue:"",
+   //    winner:"-"
+   // },
 ]
 export default Fixturedata;

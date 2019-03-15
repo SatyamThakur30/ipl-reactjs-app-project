@@ -23,7 +23,7 @@ const pointstable = [
         played:0,
         won:0,
         loss:0,
-        points:2,
+        points:0,
         rr:0
     },
     {
@@ -68,8 +68,8 @@ const pointstable = [
         played:0,
         won:0,
         loss:0,
-        points:2,
-        rr:1
+        points:0,
+        rr:0
     },
 ]
 export default pointstable;

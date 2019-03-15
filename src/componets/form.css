@@ -12,10 +12,12 @@
     width:35%;
     height:2.5rem;
     margin-top: .5rem;
+    padding: .1rem;
 }
 .form-container textarea{
     width: 35%;
     margin-top:.5rem;
+    padding: .1rem;
     height: 5rem;
 }
 .form-container button{
@@ -24,9 +26,22 @@
     background-color: cadetblue;
     color: white;
     font-style: oblique;
-    font-size: 1rem;
+    font-size: .8rem;
     margin-top: .5rem;
-    margin-left: .25%;
+    margin-left: auto;
+    
+
+}
+.recaptcha{
+    width: 3rem;
+    padding: .3rem .2rem .3rem .2rem;
+    
+    color: white;
+    font-style: oblique;
+    font-size: .8rem;
+    margin-top: .5rem;
+   
+    
 
 }
 @media screen and (max-width:800px){
