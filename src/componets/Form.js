@@ -26,7 +26,7 @@ export default class Form extends Component {
     return (
       <div className="form-container">
 
-         <form onSubmit={this.handleSubmit} data-netlify-recaptcha="true" >
+         <form onSubmit={this.handleSubmit}  >
       <input type="hidden" name="form-name" value="contact" />
          
             <label>
