@@ -26,7 +26,7 @@ export default class Form extends Component {
     return (
       <div className="form-container">
 
-         <form onSubmit={this.handleSubmit} data-netlify-recaptcha="true">
+         <form onSubmit={this.handleSubmit} name="contact" method="POST" netlify data-netlify-recaptcha="true">
          
             <label>
              <input type="text" name="name" value={name} onChange={this.handleChange} placeholder="Name" autoFocus required/>
@@ -44,20 +44,7 @@ export default class Form extends Component {
           
         </form>
 
-    <form name="contact" method="POST" netlify>
-  <p>
-    <label> <input type="text" name="name" placeholder="Name"/></label>   
-  </p>
-  <p>
-    <label> <input type="email" name="email" placeholder="E-mail"/></label>
-  </p>
-   <p>
-    <label><textarea name="message" placeholder="Message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit"><i className="fa fa-paper-plane"></i><strong>&nbsp;Send Message</strong></button>
-  </p>
-</form>
+ 
 
       </div>
     )
