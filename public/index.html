@@ -42,5 +42,23 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+     <form  name="contact" method="POST" netlify data-netlify-recaptcha="true">
+         
+            <label>
+             <input type="text" name="name" value={name} placeholder="Name" autoFocus required/>
+            </label><br/>
+         
+            <label>
+              <input type="email" name="email" value={email} placeholder="E-mail" required/>
+            </label><br/>
+          
+            <label>
+             <textarea name="message" value={message} placeholder="Message" required />
+            </label><br/>
+            <div className="recaptcha" data-netlify-recaptcha="true"></div>
+            <button type="submit"><i className="fa fa-paper-plane"></i><strong>&nbsp;Send Message</strong></button>
+          
+        </form>
+
   </body>
 </html>
