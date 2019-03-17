@@ -20,8 +20,11 @@ export default class Header extends Component {
         </section>
         </a>
        <section className="header-content">
-       
+       <section className="logo-container">
+         <img src="./teamslogo/csk.png" alt="logo" ></img>
+       </section>
       {this.state.feedback && <div className="form-container"><Form></Form></div>}
+
        <section className="content1">
           <a href="https://vivoipl2019schedule.co.in/" target="blank"><i class="fas fa-external-link-alt"></i><span>&nbsp;IPL Officials</span></a>
           <a href="https://github.com/SatyamThakur30/" target="blank"><i class="fab fa-github"></i><span>&nbsp;Github</span></a>

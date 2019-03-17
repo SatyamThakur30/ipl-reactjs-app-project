@@ -13,7 +13,7 @@ export default class Form extends Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...this.state })
     })
-      .then(() => alert("Success!"))
+      .then(() => alert("Thanks for Your Feedback!"))
       .catch(error => alert(error));
 
     e.preventDefault();
@@ -44,20 +44,7 @@ export default class Form extends Component {
           
         </form>
 
-    <form name="contact" method="POST" netlify>
-  <p>
-    <label> <input type="text" name="name" placeholder="Name"/></label>   
-  </p>
-  <p>
-    <label> <input type="email" name="email" placeholder="E-mail"/></label>
-  </p>
-   <p>
-    <label><textarea name="message" placeholder="Message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit"><i className="fa fa-paper-plane"></i><strong>&nbsp;Send Message</strong></button>
-  </p>
-</form>
+  
 
       </div>
     )

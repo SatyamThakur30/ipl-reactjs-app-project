@@ -15,6 +15,14 @@ a{
    
     
 }
+
+.logo-container img{
+    width:11rem;
+    height:13rem;
+    margin:0 auto 0 43%;
+   
+
+}
 .tothetop{
     background-image: linear-gradient(to top ,rgb(17, 31, 19),rgb(79, 79, 163));
     font-size: 1.2rem;
@@ -55,6 +63,13 @@ a{
 
         grid-template-columns: repeat(4,2fr)
     }
+    .logo-container img{
+        width:9rem;
+        height:10rem;
+        margin:0 auto 0 33%;
+       
+    
+    }
 }
 @media screen and (max-width:500px){
     .discrimer{
@@ -63,7 +78,13 @@ a{
         font-size: .6rem;
         text-align: center;
     }
-  
+    .logo-container img{
+        width:7rem;
+        height:8rem;
+        margin:0 auto 0 32.5%;
+       
+    
+    }
     .content1{
         padding: 1.2rem;
         font-size: 1rem;
