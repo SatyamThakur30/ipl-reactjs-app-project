@@ -10,34 +10,23 @@ import Lowesttotal from './records/Lowesttotal'
 import Mostsix from './records/Mostsix'
 import Mixrecord from './records/Mixrecord'
 import Recordslideshow from './records/Recordslideshow'
-
 export default class Records extends Component {
  
   render() {
     return (
       <div>
       <Recordslideshow></Recordslideshow>
-     
-     <Mostrun></Mostrun>
-     <Fastest100></Fastest100>
-     <Fast50></Fast50>
-     <Mostsix></Mostsix>
-     <Mostwickets></Mostwickets>
-     
-     <Teams></Teams>
-      
-      <Highesttotal></Highesttotal>
+      <Teams></Teams>
+        <Mostrun></Mostrun>
+        <Fastest100></Fastest100>
+        <Fast50></Fast50>
+        <Highesttotal></Highesttotal>
         <Lowesttotal></Lowesttotal>
-        
-        <Mixrecord></Mixrecord> 
-        
-         <Hatrikjs></Hatrikjs> 
-        <div className="recordquotes">
-          <p>"Records are made to be broken. So,We are ready to Update it Everytime."
-</p>
-        </div>
-     </div>
-     
+        <Mostsix></Mostsix>
+        <Mixrecord></Mixrecord>
+        <Mostwickets></Mostwickets>
+        <Hatrikjs></Hatrikjs>
+      </div>
     )
   }
 }

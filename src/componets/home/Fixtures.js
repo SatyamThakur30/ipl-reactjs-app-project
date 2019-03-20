@@ -5,11 +5,35 @@ export default class Fixtures extends Component {
     state ={
         fixtures:Fixturedata
     };
-    
-    
+  componentDidMount(){
+    try {
+      const initialFixtures=this.state.fixtures.filter((item)=>item.id<=25)
+     
+   
+      this.setState({
+        fixtures:initialFixtures,
+        showfix:true
+      })
+    } catch (error) {
+      console.log(error)
+    }
+  }
+onviewallFixture=()=>{
+  this.setState({
+    fixtures:Fixturedata,
+    showfix:!this.state.showfix
+  })
+}
+onviewlessFixture=()=>{
+  const initialFixtures=this.state.fixtures.filter((item)=>item.id<=25)
+     
+  this.setState({
+    fixtures:initialFixtures,
+    showfix:!this.state.showfix
+  })
+}
   render() {
-      console.log(this.state.fixtures);
-      
+   
     return (
       <React.Fragment>
           <section className="table-container">
@@ -39,6 +63,7 @@ export default class Fixtures extends Component {
             
            </tbody> 
           </table>
+          {this.state.showfix?<button className="fixturesbtn" style={{paddingTop:"0.3rem",paddingBottom:".2rem"}} onClick={this.onviewallFixture}>Expand All Fixtures<i style={{marginTop:"-1rem"}} className="fa fa-sort-down"></i></button>:<button className="fixturesbtn" style={{padding:".1rem 0 .2rem 0"}} onClick={this.onviewlessFixture}><i style={{marginBottom:"-1rem"}}  className="fa fa-sort-up"></i>Show Less </button>}
           </section>
       </React.Fragment>
     )

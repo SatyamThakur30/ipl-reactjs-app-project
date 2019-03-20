@@ -1,12 +1,16 @@
 *{
     box-sizing: border-box;
 }
-
+.showballingrecords{
+    display: block;
+}
+.hideballingrecords{
+    display:none;
+}
 .reactfragment{
     width:50%;
     margin:4rem 0 1rem 10%;
     text-transform: capitalize;
-    
 }
 .reactfragment h2{
     font-size:1.9rem; 
@@ -16,25 +20,43 @@
     background-color: midnightblue;
     color:white;
     font-size: 1.2rem;
-   width: 70%;
+
 
 }
-.recordquotes{
-    color: rgb(85, 33, 6);
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 2rem;
-    margin-bottom: -2rem;
-    font-style: italic;
+.ballingbtn{
+    align-self: center;
+   margin-top: .3rem  ;
+   
+    font-size: 1.4rem;
+    color: rgb(32, 32, 95);
+    border-style:hidden;
+    background-image: linear-gradient(to right,rgb(164, 204, 231),rgb(56, 212, 56));
     font-weight: bolder;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+      
+} 
+
+.ballingbtn:hover{
+    background-image: linear-gradient(to right,rgb(56, 212, 56),rgb(164, 204, 231));
+    border-style:hidden;
+    color: rgb(161, 57, 8);
+    transform-style: flat;
+    transition-duration: 400ms;
+    transition-delay: 200ms;
+}
+
+    
+.ballingbtn i{
+    font-size: 2rem;
+   
+
 }
 
 @media screen and (max-width:800px){
     .reactfragment{
-        width: 90%;
+        width: 80%;
         margin:2rem 0 1rem 5%;
-        overflow-x: scroll;
     }
     .reactfragment h2{
         font-size: 1.6rem;
@@ -46,9 +68,7 @@
     .fast100content td{
         font-size: 1rem;
     }
- .recordquotes{
-     font-size: 1.3rem;
- }
+ 
 }
 @media screen and (max-width:500px){
     .reactfragment{
@@ -66,8 +86,5 @@
     }
     .fast100content td{
         font-size: .85rem;
-    }
-    .recordquotes{
-        font-size: 1.1rem;
     }
 }

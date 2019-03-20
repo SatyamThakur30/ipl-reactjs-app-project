@@ -5,6 +5,8 @@ import Pointstable from './home/Pointstable'
 import Score from './home/Score'
 import Nextmatch from './home/Nextmatch'
 import Logoslideshow from './home/Logoslideshow'
+import SquardHome from './home/SquardHome'
+import Homerecords from './homerecords/Homerecords'
 import './home.css'
 export default class Home extends Component {
   render() {
@@ -14,21 +16,31 @@ export default class Home extends Component {
     <Score></Score>
      <Slideshow></Slideshow>
 
-    
      <div className="container-main">
     <section className="matchcontent">
     <Nextmatch></Nextmatch>
+     </section>
+    </div>
+        <Pointstable></Pointstable>
+      <Fixtures></Fixtures>
+      <SquardHome></SquardHome>
+      
+    <Homerecords></Homerecords>
+       <Logoslideshow></Logoslideshow>
+    </div>
+   </React.Fragment>
+    )
+  }
+}
+      
+     
+      
+  
     
-    
-    </section>   
-    {/* <section className="capholdercontent">
-    <Capholder></Capholder> 
-    </section> */}
-    
+      
    
        
-     </div>
-       
+   
      
   
     
@@ -36,14 +48,5 @@ export default class Home extends Component {
    
     
    
-       <Pointstable></Pointstable>
-     
-   
-       <Fixtures></Fixtures>
-       <Logoslideshow></Logoslideshow>
-    </div>
-   </React.Fragment>
-    )
-  }
-}
+    
  

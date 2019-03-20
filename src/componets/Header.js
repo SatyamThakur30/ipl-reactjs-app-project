@@ -21,7 +21,7 @@ export default class Header extends Component {
         </a>
        <section className="header-content">
        <section className="logo-container">
-        
+        <img src="./iplstats.png" alt="logo"></img>
        </section>
       {this.state.feedback && <div className="form-container"><Form></Form></div>}
 

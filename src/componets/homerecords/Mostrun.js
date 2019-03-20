@@ -1,20 +1,46 @@
 import React, { Component } from 'react'
 import Data from './mostrundata'
-
+import Fastest100 from './Fastest100'
+import Fast50 from './Fast50'
+import Mostsix from './Mostsix'
 import './mostrun.css'
 
 export default class Mostrun extends Component {
   state={
     data:Data,
-    
+    onclickrecord:false,
+    showRecordbtn:true
   }
   
+componentDidMount(){
+  try {
+  this.setState({
+    onclickrecord:false,
+    showRecordbtn:true
+  })
+  } catch (error) {
+    console.log(error)
+  }
+}
+showBattingRecords=()=>{
+  this.setState({
+    onclickrecord:!this.state.onclickrecord,
+    showRecordbtn:!this.state.showRecordbtn
+  })
+}
+hideBattingRecords=()=>{
+  this.setState({
+    onclickrecord:!this.state.onclickrecord,
+    showRecordbtn:!this.state.showRecordbtn
+  })
+}
   render() {
 
     return (
-      
+      <div>
       <div className="mostrun-reactfragment">
       <section>
+      <h2 style={{color: "rgb(12, 12, 71)"}}>Records</h2>
         <h2>Most Run (overall)</h2>
       </section>
       <div className="mostruntable-container">
@@ -52,16 +78,26 @@ export default class Mostrun extends Component {
                 )
               })
             }
-          
+            <tr>
+              <td colSpan="10" style={{padding:"0",margin:"0"}}>{this.state.showRecordbtn?<button className="squardbtn" style={{paddingTop:"0.3rem1",paddingBottom:".2rem"}} onClick={this.showBattingRecords}>Batting Records<i style={{marginTop:"-1rem"}} className="fa fa-sort-down"></i></button>:""}
+   </td>
+            </tr>
           </tbody>
         </table>
    
       </div>
       
     </div>
-    
+    <div className={this.state.onclickrecord?"showbattingrecords":"hidebattingrecords"}>
       
-    
+      <section className="fix-six-fas">
+      <Fastest100></Fastest100>
+        <Fast50></Fast50>
+        <Mostsix showRecordbtn={this.state.showRecordbtn} hideBattingRecords={this.hideBattingRecords}></Mostsix>
+         
+      </section>
+      </div>
+    </div>
     )
   }
 }

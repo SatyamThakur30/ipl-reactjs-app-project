@@ -1,7 +1,12 @@
 *{
     box-sizing: border-box;
 }
-
+.showballingrecords{
+    display: block;
+}
+.hideballingrecords{
+    display:none;
+}
 .reactfragment{
     width:50%;
     margin:4rem 0 1rem 10%;
@@ -19,20 +24,10 @@
    width: 70%;
 
 }
-.recordquotes{
-    color: rgb(85, 33, 6);
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 2rem;
-    margin-bottom: -2rem;
-    font-style: italic;
-    font-weight: bolder;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
 @media screen and (max-width:800px){
     .reactfragment{
-        width: 90%;
+        width: 80%;
         margin:2rem 0 1rem 5%;
         overflow-x: scroll;
     }
@@ -46,9 +41,7 @@
     .fast100content td{
         font-size: 1rem;
     }
- .recordquotes{
-     font-size: 1.3rem;
- }
+ 
 }
 @media screen and (max-width:500px){
     .reactfragment{
@@ -66,8 +59,5 @@
     }
     .fast100content td{
         font-size: .85rem;
-    }
-    .recordquotes{
-        font-size: 1.1rem;
     }
 }

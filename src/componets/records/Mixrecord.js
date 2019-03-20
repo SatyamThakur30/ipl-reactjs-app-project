@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import data from './mixrecords'
+
 import './fast100.css'
 export default class Fastest100 extends Component {
     state={
         data:data
     }
   render() {
+      
     return (
      <div className="reactfragment">
      <section>
@@ -39,9 +41,13 @@ export default class Fastest100 extends Component {
                      )
                  })
              }
+           
             </tbody>
+           
          </table>
+         
          </div>
+         
      </div>
     )
   }

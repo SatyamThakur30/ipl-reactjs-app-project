@@ -1,16 +1,41 @@
 import React, { Component } from 'react'
 import data from './mostwicket'
-
-
-import './fast100.css'
+import Hatrikjs from './Hatrikjs'
+import './mostwicket.css'
+// import './fast100.css'
 export default class Fastest100 extends Component {
     state={
         data:data,
-       
+        onclickBalling:false,
+    showballingbtn:true
     }
-      render() {
+    componentDidMount(){
+        try {
+        this.setState({
+            onclickBalling:false,
+            showballingbtn:true
+        })
+        } catch (error) {
+          console.log(error)
+        }
+      }
+      showBallingRecords=()=>{
+        this.setState({
+            onclickBalling:!this.state.onclickBalling,
+            showballingbtn:!this.state.showballingbtn
+        })
+      }
+      hideBallingRecords=()=>{
+        this.setState({
+          
+            onclickBalling:!this.state.onclickBalling,
+            showballingbtn:!this.state.showballingbtn
+        })
+      }
+      
+  render() {
     return (
-        
+        <div>
      <div className="reactfragment">
      <section>
          <h2>Most Wickets</h2>
@@ -43,13 +68,22 @@ export default class Fastest100 extends Component {
                      )
                  })
              }
-           
+             <tr>
+              <td colSpan="10" style={{padding:"0",margin:"0"}}>      {this.state.showballingbtn?<button className="squardbtn" style={{paddingTop:"0.3rem1",paddingBottom:".2rem"}} onClick={this.showBallingRecords}>Balling Records<i style={{marginTop:"-1rem"}} className="fa fa-sort-down"></i></button>:""}
+   
+   </td>
+            </tr>
          </tbody>        
           </table>
    
          </div>
          </div>
-      
+         <div className={this.state.onclickBalling?"showballingrecords":"hideballingrecords"}>
+        
+         <Hatrikjs hideBallingRecords={this.showBallingRecords} showballingbtn={this.state.showballingbtn}></Hatrikjs>
+         
+         </div>
+     </div>
     )
   }
 }

@@ -27,21 +27,14 @@
 .mostruns{
     background-color: rgb(170, 167, 167);
 }
-
-
 @media screen and (max-width:1000px){
     .mostruntable-container{
         overflow-x: scroll;
     }
-    .fix-six-fast{
-        margin-left:-5rem;
-    }
-    
-    
 }
 @media screen and (max-width:800px){
     .mostrun-reactfragment{
-        width: 90%;
+        width: 80%;
         margin:2rem 0 1rem 5%;
     }
     .mostrun-reactfragment h2{
@@ -54,7 +47,6 @@
     .mostruncontent td{
         font-size: 1rem;
     }
-    
  
 }
 @media screen and (max-width:500px){
@@ -71,5 +63,4 @@
     .mostruncontent td{
         font-size: .85rem;
     }
-   
 }

@@ -2,18 +2,41 @@ import React, { Component } from 'react'
 import teamWins from './teamsdata'
 import Highesttotal from './Highesttotal'
 import Lowesttotal from './Lowesttotal'
-
-import './fast100.css'
+import Mixrecord from './Mixrecord'
+import './teamshome.css'
+// import './fast100.css'
 export default class Fastest100 extends Component {
     state={
         data:teamWins,
-        
+        onclickmix:false,
+        showmixbtn:true
     }
-   
+    componentDidMount(){
+        try {
+        this.setState({
+          onclickmix:false,
+          showmixbtn:true
+        })
+        } catch (error) {
+          console.log(error)
+        }
+      }
+      showMixRecords=()=>{
+        this.setState({
+          onclickmix:!this.state.onclickmix,
+          showmixbtn:!this.state.showmixbtn
+        })
+      }
+      hideMixRecords=()=>{
+        this.setState({
+          onclickmix:!this.state.onclickmix,
+          showmixbtn:!this.state.showmixbtn
+        })}
+      
   render() {
     return (
-      
-     <div className="reactfragment">
+        <div>
+     <div className="reactfragment-team">
      <section>
          <h2>Teams</h2>
      </section>
@@ -46,7 +69,10 @@ export default class Fastest100 extends Component {
                      )
                  })
              }
-          
+             <tr>
+                  <td colSpan="8" style={{padding:"0",margin:"0",width:"100%"}}>  {this.state.showmixbtn?<button className="squardbtn" style={{paddingTop:"0.3rem1",paddingBottom:".2rem"}} onClick={this.showMixRecords}>More Unique Records<i style={{marginTop:"-1rem"}} className="fa fa-sort-down"></i></button>:""}
+   </td>        
+                         </tr>
             </tbody>
          </table>
        
@@ -54,7 +80,13 @@ export default class Fastest100 extends Component {
    
      </div>
    
-     
+     <div className={this.state.onclickmix?"showmixrecords":"hidemixrecords"}>
+     <Highesttotal></Highesttotal>
+         <Lowesttotal></Lowesttotal>
+         <Mixrecord showmixbtn={this.state.showmixbtn} hideMixRecords={this.showMixRecords}></Mixrecord>
+     </div>
+   
+     </div>
     )
   }
 }

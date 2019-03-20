@@ -6,6 +6,7 @@ export default class Fastest100 extends Component {
         data:data
     }
   render() {
+   
     return (
      <div className="reactfragment">
      <section>
@@ -36,9 +37,12 @@ export default class Fastest100 extends Component {
                      )
                  })
              }
+          
             </tbody>
          </table>
+     
          </div>
+         
      </div>
     )
   }
