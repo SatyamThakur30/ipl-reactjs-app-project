@@ -17,14 +17,14 @@ export default class Records extends Component {
     return (
       <div>
       <Recordslideshow></Recordslideshow>
-     
+     <Teams></Teams>
      <Mostrun></Mostrun>
      <Fastest100></Fastest100>
      <Fast50></Fast50>
      <Mostsix></Mostsix>
      <Mostwickets></Mostwickets>
      
-     <Teams></Teams>
+     
       
       <Highesttotal></Highesttotal>
         <Lowesttotal></Lowesttotal>
