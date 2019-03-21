@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import data from './fastes100'
+import data from '../records/fastes100'
 import './fast100.css'
 export default class Fastest100 extends Component {
     state={

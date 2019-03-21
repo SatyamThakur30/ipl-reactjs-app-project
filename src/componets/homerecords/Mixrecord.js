@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import data from './mixrecords'
+import data from '../records/mixrecords'
 import './teamshome.css'
 // import './fast100.css'
 export default class Fastest100 extends Component {

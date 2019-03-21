@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import teamWins from './teamsdata'
+import teamWins from '../records/teamsdata'
 import Highesttotal from './Highesttotal'
 import Lowesttotal from './Lowesttotal'
 import Mixrecord from './Mixrecord'

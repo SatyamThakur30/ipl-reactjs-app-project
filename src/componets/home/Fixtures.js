@@ -64,7 +64,9 @@ onviewlessFixture=()=>{
            </tbody> 
           </table>
           {this.state.showfix?<button className="fixturesbtn" style={{paddingTop:"0.3rem",paddingBottom:".2rem"}} onClick={this.onviewallFixture}>Expand All Fixtures<i style={{marginTop:"-1rem"}} className="fa fa-sort-down"></i></button>:<button className="fixturesbtn" style={{padding:".1rem 0 .2rem 0"}} onClick={this.onviewlessFixture}><i style={{marginBottom:"-1rem"}}  className="fa fa-sort-up"></i>Show Less </button>}
+          <p>*Schedule is subject to change</p>
           </section>
+          
       </React.Fragment>
     )
   }

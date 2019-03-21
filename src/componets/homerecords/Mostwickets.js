@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import data from './mostwicket'
+import data from '../records/mostwicket'
 import Hatrikjs from './Hatrikjs'
 import './mostwicket.css'
 // import './fast100.css'

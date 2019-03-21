@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Data from './mostrundata'
+import Data from '../records/mostrundata'
 import Fastest100 from './Fastest100'
 import Fast50 from './Fast50'
 import Mostsix from './Mostsix'
@@ -40,7 +40,7 @@ hideBattingRecords=()=>{
       <div>
       <div className="mostrun-reactfragment">
       <section>
-      <h2 style={{color: "rgb(12, 12, 71)"}}>Records</h2>
+      <h2 style={{color: "rgb(11, 11, 122)"}}>Records</h2>
         <h2>Most Run (overall)</h2>
       </section>
       <div className="mostruntable-container">

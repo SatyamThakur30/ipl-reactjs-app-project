@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import teamWins from './teamsdata'
-import Highesttotal from './Highesttotal'
-import Lowesttotal from './Lowesttotal'
 
 import './fast100.css'
 export default class Fastest100 extends Component {

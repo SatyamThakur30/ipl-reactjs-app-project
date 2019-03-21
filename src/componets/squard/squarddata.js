@@ -5,8 +5,9 @@ const squardData =[
     banner:"./squardwall/cskb.jpg",
     logo:"./teamslogo/csk.png",
     captain:"Mahendra Singh Dhoni.",
-    squard:"Suresh Raina, DJ Bravo,Ravindra Jadeja, Ambati Raidu,Shane Watson, FAF Du Plessis, Deepak Chahar, Murali Vijay, Sam Billings, David Willey,K.M. Asif,Shardul Thakur,Kedar Jadhav, Lungi Ngidi,Dhruv Shorey, Harbhajan Singh, Imran Tahir,Mitchell Santner,Karn Sharma,Narayan Jagdeesan,Monu Kumar, Chaitanya Bishnoi,Mohit Sharma"
-    },
+    squard:"Suresh Raina, Deepak Chahar, KM Asif, Karn Sharma, Dhruv Shorey, M Vijay, Ravindra Jadeja,  Kedar Jadhav, Ambati Rayudu, Harbhajan Singh, N Jagadeesan, Shardul Thakur, Monu Kumar, Chaitanya Bishnoi,Mohit Sharma, Ruturaj Gaikwad ",
+    overseas:"Faf du Plessis,Sam Billings, Mitchell Santner, David Willey, Dwayne Bravo, Shane Watson, Lungi Ngidi, Imran Tahir," 
+},
 
   {
     id:2,
@@ -14,7 +15,8 @@ const squardData =[
     banner:"./squardwall/mib.jpg",
     logo:"./teamslogo/mi.png",
     captain:"Rohit Sharma.",
-    squard:"Yuvraj Singh,Lasith Malinga,Hardik Pandya,Krunal Pandya,Kierin Pollard,Jaspreet Bumrah,Ishan Kishan,Mayank Markande,Mitchell McLanegan,Surya Kumar yadav,Aditya Tare,Siddesh Lad,Evin Lewis,Ben Cutting,Rahul Chahar,Pat Cummins,Adam Milne,Saurav Tiwari,Jason Behrendoff,Anukul Roy,Tajinder singh,M.D Nidheesh,Sharad Lumba,Mohsin Khan."
+    squard:" Hardik Pandya, Jasprit Bumrah, Krunal Pandya, Ishan Kishan, Suryakumar Yadav, Mayank Markande, Rahul Chahar, Anukul Roy, Siddhesh Lad, Aditya Tare,  Anmolpreet Singh, Barinder Sran, Pankaj Jaiswal, Rasikh Salam, Yuvraj Singh",
+    overseas:"Quinton de Kock, Evin Lewis, Kieron Pollard, Ben Cutting, Mitchell McClenaghan, Adam Milne, Jason Behrendorff, Quinton de Kock, Lasith Malinga"
 },
 {
     id:3,
@@ -22,7 +24,8 @@ const squardData =[
     banner:"./squardwall/kkrb.jpeg",
     logo:"./teamslogo/kkr.png",
     captain:"Dinesh Kartik",
-    squard:"Robin Uthappa,Cris Lynn,Sunil Narayan,Kuldeep Yadav,andre russel,tom curren,shubham gill,nitish rana,piyush chawla,javon searles,prasidhh krishna,rinku singh,cameron delport,kamlesh narkoti,shivam mavi,apoorv wankhede,ishan jaggi"
+    squard:"Robin Uthappa,  Shubman Gill, Piyush Chawla, Kuldeep Yadav, Prasidh Krishna, Shivam Mavi, Nitish Rana, Rinku Singh, Kamlesh Nagarkoti, Nikhil Naik,  Yarra Prithviraj,Shrikant Mundhe",
+    overseas:"Chris Lynn, Andre Russell, Sunil Narine, Carlos Brathwaite, Lockie Ferguson, Anrich Nortje,Harry Gurney, Joe Denly"
 },
 {
     id:4,
@@ -30,7 +33,9 @@ const squardData =[
     logo:"./teamslogo/rrr.png",
     banner:"./squardwall/rrb.jpg",
     captain:"Ajinkre Rahane",
-    squard:"steve smith,sanju samson,stuart binny,dhaval kulkarni,varun sharma,jos buttler,jofra archer,krishnappa gowtham,mithun s,ben stokes,mahipal lomror,shreyas gopal,ish sodhi,prashant chopra,rahul tripathi,jaydev unadkat,aryaman vikram birla"
+    squard:" Krishnappa Gowtham, Sanju Samson, Shreyas Gopal, Aryaman Birla, S. Midhun, Prashant Chopra, Stuart Binny, Rahul Tripathi, Dhawal Kulkarni,Jaydev Unadkat, Varun Aaron,  Shashank Singh,  Shubham Rajane, Manan Vohra, Riyan Parag ",
+    overseas:"Ben Stokes, Steve Smith, Jos Buttler, Jofra Archer, Ish Sodhi,Oshane Thomas,Liam Livinstone , Ashton Turner, Mahipal Lomror,"
+    
 },
 {
     id:5,
@@ -38,7 +43,8 @@ const squardData =[
     logo:"./teamslogo/pj.png",
     banner:"./squardwall/pjb.jpg",
     captain:"Ravichandran Ashwin",
-    squard:"mandeep singh,sam curren,chris gayle, k l rahul, nicolas pooran, mujeeb ur rahman, mohammed shami, varun chakrrobarty,sarfaraz khan,andrew tye, karun nair,ankit rajpoot,davi millier,mayank agarwal, moises henriques,"
+    squard:" KL Rahul,Mayank Agarwal, Ankit Rajpoot,Karun Nair, Varun Chakaravarthy, Sam Curran, Mohammad Shami , Sarfaraz Khan, Arshdeep Singh, Darshan Nalkande, Prabhsimran Singh, Agnivesh Ayachi,Harpreet Brar,Murugan Ashwin",
+    overseas:" Chris Gayle, Andrew Tye,Mujeeb Ur Rahman, David Miller,Moises Henriques, Nicholas Pooran, Hardus Viljoen,"
 },
 {
     id:6,
@@ -46,7 +52,8 @@ const squardData =[
     logo:"./teamslogo/rcb.png",
     banner:"./squardwall/rcbb.jpeg",
     captain:"Virat kohli",
-    squard:"A.B.D'Villers, yezuvendra chahal,parthiv patel,mohammed siraj,shimron hetmyer,devdatt padikal,moeen ali,marcos stoinis,umesh yadav,tim southee,colin D'Grandhome,washington sunder,henric klaseen,nathan coulter nile,shivam dubey,navdeep saini,gukeerat singh,kulwant khejroliya,pawan negi"
+    squard:" Parthiv Patel, Yuzvendra Chahal, Umesh Yadav, Navdeep Saini, Kulwant Khejroliya, Washington Sundar, Pawan Negi,  Mohammed Siraj, Devdutt Padikkal, Shivam Dube, Gurkeerat Singh , Himmat Singh, Prayas Ray Barman,Mandeep Singh",
+    overseas:"AB de Villiers,Tim Southee,Nathan Coulter-Nile, Moeen Ali, Heinrich Klassen,Colin de Grandhomme,Shimron Hetmyer, "
 },
 {
     id:7,
@@ -54,7 +61,8 @@ const squardData =[
     logo:"./teamslogo/srh.png",
     banner:"./squardwall/srhb.jpg",
     captain:"Kane Williamson",
-    squard:"David warner,Rashid khan,md. nabi,bhuvneshwar kumar,deepak hudda,alex hales,siddharth kaul,shakib al hassan,bipul sharma,manish pandey,rickey bhul,yusuf pathan,billi stanlake,srivats goswami,sandeep sharma,karlos brathwaite,basil thampi,wriddhiman saha,khaleel ahemad,T.Natrajan,sachin baby,mehndi hasan,chris jordan, tanmay agarwal."
+    squard:"Basil Thampi, Bhuvneshwar Kumar, Deepak Hooda, Manish Pandey, T Natarajan, Ricky Bhui, Sandeep Sharma, Siddarth Kaul, Shreevats Goswami (wk), Khaleel Ahmed, Yusuf Pathan,  Wriddhiman Saha",
+    overseas:"Billy Stanlake, David Warner, Rashid Khan, Mohammad Nabi, Shakib Al Hasan,Jonny Bairstow,, Martin Guptill"
 },
 {
     id:8,
@@ -62,7 +70,8 @@ const squardData =[
     logo:"./teamslogo/dc.png",
     banner:"./squardwall/dcb.jpg",
     captain:"Shikar Dhawan",
-    squard:"shreyas lyer,rishabh pant,amit mishra,mohammed sami,chris morris,shahbaz nadeem,naman ojha,sandeep lamichhane,jayant yadav, prithvi shaw,abhishek sharma,trent bault,harshal patel,manjot kalra,colin munro,avesh khan,junior dala,liam plumkett,rahul tewatiya,kagiso rabada,sayari ghosh,gurkeerat singh"
+    squard:"Shreyas Iyer, Rishabh Pant, Prithvi Shaw, Amit Mishra, Avesh Khan, Harshal Patel, Rahul Tewatia, Jayant Yadav, Manjot Kalra,  Hanuma Vihari, Axar Patel, Ishant Sharma, Ankush Bains, Nathu Singh,  Jalaj Saxena, Bandaru Ayyappa, Vijay Shankar, Shahbaz Nadeem.",
+    overseas:"Colin Munro, Chris Morris, Kagiso Rabada, Sandeep Lamichhane, Trent Boult, Colin Ingram, Sherfane Rutherford,Keemo Paul,"
 },
 ] 
 export default squardData;    
