@@ -26,7 +26,7 @@ export default class Header extends Component {
       {this.state.feedback && <div className="form-container"><Form></Form></div>}
 
        <section className="content1">
-          <a href="https://vivoipl2019schedule.co.in/" target="blank"><i class="fas fa-external-link-alt"></i><span>&nbsp;IPL Officials</span></a>
+          <a href="https://www.iplt20.com/" target="blank"><i class="fas fa-external-link-alt"></i><span>&nbsp;IPL Officials</span></a>
           <a href="https://github.com/SatyamThakur30/" target="blank"><i class="fab fa-github"></i><span>&nbsp;Github</span></a>
           <a href="#home"><i class="fas fa-comments"></i><span onClick={this.openFeedback}>&nbsp;&nbsp;&nbsp;Feedback</span></a>
            {console.log(this.state.feedback)}
