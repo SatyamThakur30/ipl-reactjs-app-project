@@ -33,7 +33,7 @@ export default class Header extends Component {
         </section>  
        <section className="dev"><p>Afforted By: Satyam Thakur</p></section>
       </section>
-      <section className="discrimer"><p><strong>Disclaimer:In case of any copyright issue please contact us. We will tackle it soon.</strong></p></section>
+      <section className="discrimer"><p><strong>Disclaimer:In case of any copyright issue please contact us. We will tackle it soon.Write us(innoeve4@gmail.com)</strong></p></section>
       
       </div>
     )
