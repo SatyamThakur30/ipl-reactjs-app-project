@@ -31,7 +31,7 @@ export default class Header extends Component {
           <a href="#home"><i class="fas fa-comments"></i><span onClick={this.openFeedback}>&nbsp;&nbsp;&nbsp;Feedback</span></a>
            {console.log(this.state.feedback)}
         </section>  
-       <section className="dev"><p>Afforted By: Satyam Thakur</p></section>
+       <section className="dev"><p>Developed and maintain by: InnoEve</p></section>
       </section>
       <section className="discrimer"><p><strong>Disclaimer:In case of any copyright issue please contact us. We will tackle it soon.Write us(innoeve4@gmail.com)</strong></p></section>
       
