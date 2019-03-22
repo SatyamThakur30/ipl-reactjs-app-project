@@ -1,5 +1,6 @@
 *{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .next-last-container{
     display: grid;
@@ -12,9 +13,11 @@
 margin-top: 0;
  /* width:30%; */
  text-align: center;
- align-self: center;
+ -ms-flex-item-align: center;
+     align-self: center;
  text-transform: capitalize;
- box-shadow: 2px 2px 20px 2px rgb(112, 182, 173);
+ -webkit-box-shadow: 2px 2px 20px 2px rgb(112, 182, 173);
+         box-shadow: 2px 2px 20px 2px rgb(112, 182, 173);
  
  
  
@@ -22,6 +25,7 @@ margin-top: 0;
 .titlenextmatch{
     
     color: white;
+   background-image: -webkit-gradient(linear,left bottom, right top,from(rgb(6, 6, 49)),to(rgb(14, 14, 136)));
    background-image: linear-gradient(to right top,rgb(6, 6, 49),rgb(14, 14, 136));
     padding:.5rem;
     

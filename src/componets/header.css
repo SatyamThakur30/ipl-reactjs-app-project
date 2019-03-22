@@ -1,5 +1,6 @@
 *{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding:0;
     margin: 0;
 }
@@ -7,6 +8,7 @@ a{
     text-decoration: none;
 }
 .header-content{
+    background-image: -webkit-gradient(linear,left bottom, right top,from(rgb(4, 4, 51)),to(rgb(37, 37, 134)));
     background-image: linear-gradient(to top right,rgb(4, 4, 51),rgb(37, 37, 134));
 }
 .header-container{
@@ -24,11 +26,13 @@ a{
 
 }
 .tothetop{
+    background-image: -webkit-gradient(linear ,left bottom, left top ,from(rgb(17, 31, 19)),to(rgb(79, 79, 163)));
     background-image: linear-gradient(to top ,rgb(17, 31, 19),rgb(79, 79, 163));
     font-size: 1.2rem;
     padding: 1rem;
     text-align: center;
-    align-self: center;
+    -ms-flex-item-align: center;
+        align-self: center;
     color: white;
 }
 .content1{
@@ -47,7 +51,8 @@ a{
     color: whitesmoke;
     padding: 1.5rem;
     text-align: center;
-    align-self: center;
+    -ms-flex-item-align: center;
+        align-self: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1rem
 }

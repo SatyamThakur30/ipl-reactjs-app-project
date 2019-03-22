@@ -1,5 +1,6 @@
 *{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .bg-img{
    
@@ -11,7 +12,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    filter: blur(2px);
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
 }
 .bg-img img{
     margin: 0;
@@ -30,7 +32,8 @@
   position: relative;
     margin-top: 3rem;
    padding: 0 0rem 1.5rem 0rem;
-   box-shadow: 2px 2px 20px 5px rgb(172, 164, 164);
+   -webkit-box-shadow: 2px 2px 20px 5px rgb(172, 164, 164);
+           box-shadow: 2px 2px 20px 5px rgb(172, 164, 164);
   
   
 }
@@ -46,7 +49,8 @@
 }
 .squard-title h1{
     position: relative;
-    align-self: center;
+    -ms-flex-item-align: center;
+        align-self: center;
     font-size: 1.4rem;
 }
 .captain{
@@ -75,6 +79,7 @@
     font-size: 1.4rem;
     color: rgb(32, 32, 95);
     border-style:hidden;
+    background-image: -webkit-gradient(linear,left top, right top,from(rgb(164, 204, 231)),to(rgb(56, 212, 56)));
     background-image: linear-gradient(to right,rgb(164, 204, 231),rgb(56, 212, 56));
     font-weight: bolder;
     display: grid;
@@ -83,12 +88,16 @@
 } 
 
 .squardbtn:hover{
+    background-image: -webkit-gradient(linear,left top, right top,from(rgb(56, 212, 56)),to(rgb(164, 204, 231)));
     background-image: linear-gradient(to right,rgb(56, 212, 56),rgb(164, 204, 231));
     border-style:hidden;
     color: rgb(161, 57, 8);
-    transform-style: flat;
-    transition-duration: 400ms;
-    transition-delay: 200ms;
+    -webkit-transform-style: flat;
+            transform-style: flat;
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-delay: 200ms;
+            transition-delay: 200ms;
 }
     
 .squardbtn i{

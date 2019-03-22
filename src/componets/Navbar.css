@@ -1,5 +1,6 @@
 *{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 0%;
     margin: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -7,6 +8,7 @@
 
 
 .navbar-container{
+  background-image: -webkit-gradient(linear,left top, right top,from(rgb(4, 4, 51)),to(rgb(37, 37, 134)));
   background-image: linear-gradient(to right,rgb(4, 4, 51),rgb(37, 37, 134));
   
     color: whitesmoke;
