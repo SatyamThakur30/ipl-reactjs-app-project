@@ -12,7 +12,7 @@ export default class score extends Component {
   try {
     const data = await fetch(this.state.url);
     const jsonData = await data.json();
-    const filterData = jsonData.data.filter((item)=>item.unique_id ==1144173);
+    const filterData = jsonData.data.filter((item)=>item.unique_id ==1175356);
     this.setState({
       liveData:filterData
     })
@@ -38,7 +38,7 @@ export default class score extends Component {
        this.state.liveData.map((item)=>{
          return(
            <div className="score">
-             <p><strong>(Demo){item.title}</strong></p>
+             <p><strong>{item.title}</strong></p>
             
           </div>
 

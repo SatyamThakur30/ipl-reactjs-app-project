@@ -8,6 +8,16 @@ export default class Mostrun extends Component {
     data:Data,
     
   }
+  componentDidMount(){
+    try {
+      this.setState({
+        data:this.state.data.sort((a,b)=>{return (b.run-a.run)})
+      })
+      
+    } catch (error) {
+      console.log(error)
+    }
+  }
   
   render() {
 

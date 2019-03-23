@@ -5,6 +5,17 @@ export default class Fastest100 extends Component {
     state={
         data:data
     }
+    componentDidMount(){
+        try {
+          this.setState({
+            data:this.state.data.sort((a,b)=>{return (b.sixes-a.sixes)})
+          })
+          
+        } catch (error) {
+          console.log(error)
+        }
+      }
+     
   render() {
       const{showRecordbtn,hideBattingRecords}=this.props;
     return (

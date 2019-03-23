@@ -11,10 +11,15 @@ export default class Mostrun extends Component {
     onclickrecord:false,
     showRecordbtn:true
   }
+ 
+ 
   
 componentDidMount(){
   try {
   this.setState({
+    
+      data:this.state.data.sort((a,b)=>{return (b.run-a.run)}),
+  
     onclickrecord:false,
     showRecordbtn:true
   })

@@ -5,7 +5,7 @@ const data=[
         team:"MI",
         inn:110,
         wkts:154,
-        span:"2009-17"
+        span:"2009-19"
     },
     {
         bowler:"Amit Mishra",
@@ -13,7 +13,7 @@ const data=[
         team:"DC,DD,SRH",
         inn:136,
         wkts:146,
-        span:"2008-18"
+        span:"2008-19"
     },
     {
         bowler:"piyush chawala",
@@ -21,7 +21,7 @@ const data=[
         team:"KXIP,KKR",
         inn:143,
         wkts:140,
-        span:"2008-18"
+        span:"2008-19"
     },
     {
         bowler:"Dwayne bravo",
@@ -29,7 +29,7 @@ const data=[
         team:"CSK,GL,MI",
         inn:119,
         wkts:119,
-        span:"2008-18"
+        span:"2008-19"
     },
     {
         bowler:"Harbhajan singh",
@@ -37,7 +37,7 @@ const data=[
         team:"MI, CSK",
         inn:146,
         wkts:134,
-        span:"2008-18"
+        span:"2008-19"
     },
 ]
 export default data;

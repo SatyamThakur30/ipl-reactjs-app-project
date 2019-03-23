@@ -1,7 +1,7 @@
 const teamWins = [
     {
         team:"CSK",
-        span:"2008-18",
+        span:"2008-19",
         logo:"./teamslogo/csk.png",
         match:150,
         won:91,
@@ -11,7 +11,7 @@ const teamWins = [
     },
     {
         team:"MI",
-        span:"2008-18",
+        span:"2008-19",
         logo:"./teamslogo/mi.png",
         match:171,
         won:97,
@@ -21,7 +21,7 @@ const teamWins = [
     },
     {
         team:"SRH",
-        span:"2013-18",
+        span:"2013-19",
         logo:"./teamslogo/srh.png",
         match:93,
         won:51,
@@ -30,7 +30,7 @@ const teamWins = [
         titles:1,
     },{
         team:"KKR",
-        span:"2008-18",
+        span:"2008-19",
         logo:"./teamslogo/kkr.png",
         match:162,
         won:85,
@@ -39,7 +39,7 @@ const teamWins = [
         titles:2,
     },{
         team:"RR",
-        span:"2008-18",
+        span:"2008-19",
         logo:"./teamslogo/rrr.png",
         match:132,
         won:68,
@@ -57,7 +57,7 @@ const teamWins = [
         titles:0,
     },{
         team:"RCB",
-        span:"2008-18",
+        span:"2008-19",
         logo:"./teamslogo/rcb.png",
         match:167,
         won:78,
@@ -66,7 +66,7 @@ const teamWins = [
         titles:0,
     },{
         team:"KXIP",
-        span:"2008-18",
+        span:"2008-19",
         logo:"./teamslogo/pj.png",
         match:162,
         won:74,
@@ -94,7 +94,7 @@ const teamWins = [
         titles:0,
     },{
         team:"Delhi Capitals",
-        span:"2008-2018",
+        span:"2008-2019",
         logo:"./teamslogo/dc.png",
         match:161,
         won:67,

@@ -5,6 +5,17 @@ export default class Fastest100 extends Component {
     state={
         data:data
     }
+    componentDidMount(){
+        try {
+          this.setState({
+            data:this.state.data.sort((a,b)=>{return (a.balls-b.balls)})
+          })
+          
+        } catch (error) {
+          console.log(error)
+        }
+      }
+     
   render() {
     return (
      <div className="reactfragment">

@@ -11,9 +11,12 @@ export default class Fastest100 extends Component {
         onclickmix:false,
         showmixbtn:true
     }
+   
     componentDidMount(){
         try {
         this.setState({
+          data:this.state.data.sort((a,b)=>{return (b.win-a.win)}),
+       
           onclickmix:false,
           showmixbtn:true
         })

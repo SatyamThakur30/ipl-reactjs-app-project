@@ -7,6 +7,16 @@ export default class Fastest100 extends Component {
         data:teamWins,
         
     }
+    componentDidMount(){
+        try {
+          this.setState({
+              data:this.state.data.sort((a,b)=>{
+                  return (b.win-a.win)})
+          })  
+        } catch (error) {
+            console.log(error)
+        }
+    }
    
   render() {
     return (

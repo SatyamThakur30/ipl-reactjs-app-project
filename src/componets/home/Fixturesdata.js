@@ -5,7 +5,9 @@
         date:"Saturday 23rd march",
         timing:"20:00 IST(14:30 GMT)",
         venue:"M.A Chidambaram Stadium, Chennai",
-        winner:"-"
+        winner:"-",
+        by:"-",
+   
      }, 
      {
          id:2,
@@ -13,7 +15,10 @@
          date:"Sunday 24th march",
          timing:"16:00 IST(10:30 GMT)",
          venue:"Eden Garden Kolkata",
-         winner:"-"
+         winner:"-",
+         by:"-",
+        
+
       },  
       {
         id:3,
@@ -21,7 +26,8 @@
         date:"Sunday 24 march",
         timing:"20:00 IST(14:30 GMT)",
         venue:"Wankhede stadium Mumbai",
-        winner:"-"
+        winner:"-",by:"-",
+        
      },
      {
       id:4,
@@ -29,7 +35,7 @@
       date:"Monday 25 march",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Jaipur",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:5,
@@ -37,7 +43,7 @@
       date:"Tuesday 26 march",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Feroz Shah Kotla",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:6,
@@ -45,7 +51,7 @@
       date:"Wednesday 27 march",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Eden Garden Kolkata",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:7,
@@ -53,7 +59,7 @@
       date:"Thursday 28th march",
       timing:"20:00 IST(14:30 GMT)",
       venue:"M.Chinnaswamy Bengaluru",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:8,
@@ -61,7 +67,7 @@
       date:"Friday 29th march",
       timing:"20:00 IST(14:30 GMT)",
       venue:"RGI stadium Hyderabad",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:9,
@@ -69,7 +75,7 @@
       date:"Saturday 30th march",
       timing:"16:00 IST(10:30 GMT)",
       venue:"PCA stadium Mohali",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:10,
@@ -77,7 +83,7 @@
       date:"Saturday 30th march",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Feroz shah kotla",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:11,
@@ -85,7 +91,7 @@
       date:"Sunday 31st march ",
       timing:"16:00 IST(10:30 GMT)",
       venue:"RGI stadium Hyderabad",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:12,
@@ -93,7 +99,7 @@
       date:"Sunday 31st march",
       timing:"20:00 IST(14:30 GMT)",
       venue:"M.A Chidambaram Chennai",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:13,
@@ -101,7 +107,7 @@
       date:"Monday 1st April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Mohali",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:14,
@@ -109,7 +115,7 @@
       date:"Tuesday 2nd April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Jaipur",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:15,
@@ -117,15 +123,14 @@
       date:"Wednesday 3rd April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Wankhede",
-      winner:"-"
-   },
+      winner:"-",by:"-"   },
    {
       id:16,
       teams:"DC VS SRH",
       date:"Thursday 4th April",
       timing:" 20:00 IST(14:30 GMT)",
       venue:"Delhi",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:17,
@@ -133,7 +138,7 @@
       date:"Friday 5th April ",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Bangalore",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:18,
@@ -141,7 +146,7 @@
       date:"Saturday 6th April",
       timing:"16:00 IST(10:30 GMT)",
       venue:"Chennai",
-      winner:"-"
+      winner:"-",by:"-",
    },
    {
       id:19,
@@ -149,7 +154,7 @@
       date:"Saturday 6th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"RGI,Hyderabad",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:20,
@@ -157,7 +162,7 @@
       date:"Sunday 7th April ",
       timing:"16:00 IST(10:30 GMT)",
       venue:"Bengaluru",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:21,
@@ -165,7 +170,7 @@
       date:"Sunday 7th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Jaipur",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:22,
@@ -173,7 +178,7 @@
       date:"Monday 8th April",
       timing:"20:00 IST(14:30 GMT) ",
       venue:"Mohali",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:23,
@@ -181,7 +186,7 @@
       date:"Tuesday 9th April ",
       timing:"20:00 IST(14:30 GMT) ",
       venue:"Chennai",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:24,
@@ -189,7 +194,7 @@
       date:"Wednesday 10th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Wankhede",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:25,
@@ -197,7 +202,7 @@
       date:"Thursday 11th April ",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Jaipur",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:26,
@@ -205,7 +210,7 @@
       date:"Friday 12th April",
       timing:"20:00 IST(14:30 GMT) ",
       venue:"Eden Garden",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:27,
@@ -213,7 +218,7 @@
       date:"Saturday 13th April",
       timing:"16:00 IST(10:30 GMT) ",
       venue:"Wankhede",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:28,
@@ -221,7 +226,7 @@
       date:"Saturday 13th April",
       timing:"20:00 IST(14:30 GMT) ",
       venue:"Mohali",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:29,
@@ -229,7 +234,7 @@
       date:"Sunday 14th April ",
       timing:"16:00 IST(10:30 GMT) ",
       venue:"Eden Garden",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:30 ,
@@ -237,7 +242,7 @@
       date:"Sunday 14th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"RGI Hyderabad",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:31,
@@ -245,7 +250,7 @@
       date:"Monday 15th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Wankhede",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:32,
@@ -253,15 +258,15 @@
       date:"Tuesday 16th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Mohali",
-      winner:"-"
-   },
+      winner:"-",by:"-"
+      },
    {
       id:33,
       teams:"SRH VS CSK",
       date:"Wednesday 17th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"RGI Hyderabad",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:34,
@@ -269,15 +274,15 @@
       date:"Thursday 18th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Delhi",
-      winner:"-"
-   },
+      winner:"-",by:"-"
+     },
    {
       id:35,
       teams:"KKR VS RCB",
       date:"Friday 19th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Eden Garden",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:36,
@@ -285,7 +290,7 @@
       date:"Saturday 20th April",
       timing:"16:00 IST(10:30 GMT)",
       venue:"Jaipur",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:37,
@@ -293,7 +298,7 @@
       date:"Saturday 20th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Delhi",
-      winner:"-"
+      winner:"-",by:"-"
    
    },
    {
@@ -302,7 +307,7 @@
       date:"Sunday 21th April",
       timing:"16:00 IST(10:30 GMT)",
       venue:"RGI Hyderabad",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:39,
@@ -310,7 +315,7 @@
       date:"Sunday 21th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Chinnaswamy,Bengaluru",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:40,
@@ -318,7 +323,7 @@
       date:"Monday 22nd April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Jaipur",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:41,
@@ -326,7 +331,7 @@
       date:"Tuesday 23rd April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Chennai",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:42,
@@ -334,7 +339,7 @@
       date:"Wednesday 24th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Chinnaswamy",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:43,
@@ -342,7 +347,7 @@
       date:"Thursday 25th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Eden Garden",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:44,
@@ -350,7 +355,7 @@
       date:"Friday 26th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Chennai",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:45,
@@ -358,7 +363,7 @@
       date:"Saturday 27th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Jaipur",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:46,
@@ -366,15 +371,15 @@
       date:"Sunday 28th April",
       timing:"16:00 IST(10:30 GMT)",
       venue:"Delhi",
-      winner:"-"
-   },
+      winner:"-",by:"-"
+     },
    {
       id:47,
       teams:"KKR vs MI",
       date:"Sunday 28th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Eden Garden",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:48,
@@ -382,7 +387,7 @@
       date:"Monday 29th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"RGI Hyderabad",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:49,
@@ -390,7 +395,7 @@
       date:"Tuesday 30th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Bengaluru",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:50,
@@ -398,7 +403,7 @@
       date:"Wednesday 1st May",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Cheenai",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:51,
@@ -406,7 +411,7 @@
       date:"Thursday 2nd May",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Wankhede",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:52,
@@ -414,7 +419,7 @@
       date:"Friday 3rd MAy",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Mohali",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:53,
@@ -422,7 +427,7 @@
       date:"Saturday 4th May",
       timing:"16:00 IST(10:30 GMT)",
       venue:"Delhi",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:54,
@@ -430,7 +435,7 @@
       date:"Saturday 4th May",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Bengaluru",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:55,
@@ -438,7 +443,7 @@
       date:"Sunday 5th May",
       timing:"16:00 IST(10:30 GMT)",
       venue:"Mohali",
-      winner:"-"
+      winner:"-",by:"-"
    },
    {
       id:56,
@@ -446,7 +451,7 @@
       date:"Sunday 5th May",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Wankhede",
-      winner:"-"
+      winner:"-",by:"-"
    },
 ]
 export default Fixturedata;
