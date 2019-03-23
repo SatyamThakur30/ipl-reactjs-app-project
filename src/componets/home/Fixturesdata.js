@@ -5,8 +5,8 @@
         date:"Saturday 23rd march",
         timing:"20:00 IST(14:30 GMT)",
         venue:"M.A Chidambaram Stadium, Chennai",
-        winner:"-",
-        by:"-",
+        winner:"CSK",
+        by:"7 Wickets",
    
      }, 
      {
