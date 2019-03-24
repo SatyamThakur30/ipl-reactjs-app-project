@@ -51,7 +51,7 @@ const pointstable = [
         won:1,
         loss:0,
         points:2,
-        rr:+0.25
+        rr:+0.255
     },
     {
         team:"DC",
