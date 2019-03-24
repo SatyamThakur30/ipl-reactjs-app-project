@@ -9,7 +9,7 @@ export default class Pointstable extends Component {
     async componentDidMount(){
         this.setState({
             points:this.state.points.sort((a,b) =>{
-            if(b.points<a.points){
+            if(b.points>a.points){
                 return (b.points-a.points)
             }
             else if(b.points==a.points){
