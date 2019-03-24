@@ -26,7 +26,8 @@
         date:"Sunday 24 march",
         timing:"20:00 IST(14:30 GMT)",
         venue:"Wankhede stadium Mumbai",
-        winner:"-",by:"-",
+        winner:"DC",
+      by:"37 Runs",
         
      },
      {
