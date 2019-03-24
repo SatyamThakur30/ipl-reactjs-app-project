@@ -15,8 +15,8 @@
          date:"Sunday 24th march",
          timing:"16:00 IST(10:30 GMT)",
          venue:"Eden Garden Kolkata",
-         winner:"-",
-         by:"-",
+         winner:"KKR",
+         by:"6 wickets",
         
 
       },  
