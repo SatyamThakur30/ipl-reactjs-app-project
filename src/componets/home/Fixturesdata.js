@@ -36,7 +36,8 @@
       date:"Monday 25 march",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Jaipur",
-      winner:"-",by:"-"
+      winner:"KXIP",by:"14 Runs"
+      
    },
    {
       id:5,
