@@ -21,7 +21,7 @@ export default class score extends Component {
 
   }}
   // componentDidMount(){
-  //   const filterdata = this.state.liveData.filter((item)=>item.unique_id ==1175359);
+  //   const filterdata = this.state.liveData.filter((item)=>item.unique_id ==1175360);
   //   this.setState({
   //     liveData:filterdata
   //   })
