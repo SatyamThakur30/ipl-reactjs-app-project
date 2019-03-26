@@ -45,7 +45,9 @@
       date:"Tuesday 26 march",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Feroz Shah Kotla",
-      winner:"-",by:"-"
+      winner:"CSK",
+    by:"6 Wickets"
+    
    },
    {
       id:6,
