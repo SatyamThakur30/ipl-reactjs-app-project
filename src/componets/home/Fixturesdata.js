@@ -55,7 +55,8 @@
       date:"Wednesday 27 march",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Eden Garden Kolkata",
-      winner:"-",by:"-"
+      winner:"KKR",
+    by:"28 Runs "
    },
    {
       id:7,
