@@ -47,11 +47,11 @@ const pointstable = [
     {
         team:"KKR",
         logo:"./teamslogo/kkr.png",
-        played:1,
-        won:1,
+        played:2,
+        won:2,
         loss:0,
-        points:2,
-        rr:+0.255
+        points:4,
+        rr:+0.834
     },
     {
         team:"DC",
@@ -67,9 +67,10 @@ const pointstable = [
         logo:"./teamslogo/pj.png",
         played:1,
         won:1,
-        loss:0,
+        loss:1,
         points:2,
-        rr:+0.700
+        rr:-0.350
+       
     },
 ]
 export default pointstable;
