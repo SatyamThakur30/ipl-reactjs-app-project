@@ -13,11 +13,11 @@ const capHolder = [
         id:2,
         capimage:"./capholder/purple-cap.png",
         title:"purple cap",
-        image:"https://media0.mensxp.com/media/content/2018/Apr/tahir-run-embed1-1524691053.jpg",
-        name:"Imran Tahir",
-        wicket:"wicket : 4",
+        image:"",
+        name:"Y .Chahal",
+        wicket:"wicket : 5",
         matches:"Matches: 2",
-        team:"CSK"
+        team:"RCB"
     }
 ]
 export default capHolder;
