@@ -64,7 +64,8 @@
       date:"Thursday 28th march",
       timing:"20:00 IST(14:30 GMT)",
       venue:"M.Chinnaswamy Bengaluru",
-      winner:"-",by:"-"
+      winner:"MI",
+    by:"6 Runs "
    },
    {
       id:8,
