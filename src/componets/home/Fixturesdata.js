@@ -73,7 +73,8 @@
       date:"Friday 29th march",
       timing:"20:00 IST(14:30 GMT)",
       venue:"RGI stadium Hyderabad",
-      winner:"-",by:"-"
+      winner:"SRH",
+    by:"5 Wickets"
    },
    {
       id:9,
