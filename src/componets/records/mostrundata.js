@@ -5,7 +5,7 @@ const Data =[
      logo:"./teamslogo/csk.png",
      match:176+1,
      inn:172,
-     run:4985+19,
+     run:4985+19+46,
      avarage:34.37,
      six:185,
      four:448,
