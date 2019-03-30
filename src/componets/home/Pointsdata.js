@@ -33,7 +33,7 @@ const pointstable = [
         won:1,
         loss:1,
         points:2,
-        rr:+190
+        rr:+0.190
     },
     {
         team:"RR",
