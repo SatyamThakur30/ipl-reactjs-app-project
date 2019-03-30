@@ -91,7 +91,8 @@
       date:"Saturday 30th march",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Feroz shah kotla",
-      winner:"-",by:"-"
+      winner:"DC",
+    by:"-"
    },
    {
       id:11,
