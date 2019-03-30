@@ -92,7 +92,7 @@
       timing:"20:00 IST(14:30 GMT)",
       venue:"Feroz shah kotla",
       winner:"DC",
-    by:"3 Runs"
+    by:"3 Runs in super over"
    },
    {
       id:11,
