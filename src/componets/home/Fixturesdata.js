@@ -82,7 +82,8 @@
       date:"Saturday 30th march",
       timing:"16:00 IST(10:30 GMT)",
       venue:"PCA stadium Mohali",
-      winner:"-",by:"-"
+      winner:"KXIP",
+    by:"8 Wickets"
    },
    {
       id:10,
