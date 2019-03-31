@@ -109,7 +109,7 @@
       date:"Sunday 31st march",
       timing:"20:00 IST(14:30 GMT)",
       venue:"M.A Chidambaram Chennai",
-      winner:"-",by:"-"
+      winner:"CSK",by:"8 Runs"
    },
    {
       id:13,
