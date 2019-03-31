@@ -7,7 +7,7 @@ export default class Lastupdate extends Component {
     }
     async componentDidMount(){
         try {
-            const winner = await this.state.data.filter((item)=>item.id ==10);
+            const winner = await this.state.data.filter((item)=>item.id ==11);
            
             this.setState({
                 data:winner
