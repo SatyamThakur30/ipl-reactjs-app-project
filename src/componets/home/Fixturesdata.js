@@ -100,7 +100,8 @@
       date:"Sunday 31st march ",
       timing:"16:00 IST(10:30 GMT)",
       venue:"RGI stadium Hyderabad",
-      winner:"-",by:"-"
+      winner:"SRH",
+   by:"118 Runs"
    },
    {
       id:12,
