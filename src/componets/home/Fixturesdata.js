@@ -117,7 +117,7 @@
       date:"Monday 1st April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Mohali",
-      winner:"-",by:"-"
+      winner:"KXIP",by:"14 Runs"
    },
    {
       id:14,
