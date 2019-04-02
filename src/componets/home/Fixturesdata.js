@@ -125,7 +125,7 @@
       date:"Tuesday 2nd April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Jaipur",
-      winner:"-",by:"-"
+      winner:"RR",by:"7 Wickets"
    },
    {
       id:15,
