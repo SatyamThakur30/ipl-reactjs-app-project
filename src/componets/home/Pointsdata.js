@@ -2,21 +2,21 @@ const pointstable = [
     {
         team:"CSK",
         logo:"./teamslogo/csk.png",
-        played:3,
+        played:4,
         won:3,
-        loss:0,
+        loss:1,
         points:6,
-        rr:+0.535
+        rr:-0.084
     },
     {
         team:"MI",
         logo:"./teamslogo/mi.png",
-        played:3,
-        won:1,
+        played:4,
+        won:2,
         loss:2,
 
-        points:2,
-        rr:-0.755
+        points:4,
+        rr:-0.087
         
     },
     {
