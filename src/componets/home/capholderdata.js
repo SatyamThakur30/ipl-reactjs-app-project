@@ -13,11 +13,11 @@ const capHolder = [
         id:2,
         capimage:"./capholder/purple-cap.png",
         title:"purple cap",
-        image:"https://akm-img-a-in.tosshub.com/indiatoday/images/story/201904/imrantahircskvrr010419_0.jpeg?IqpxXqvL2ZQoNZMk3FMWa5w5bAVV2fF2",
-        name:"Imran Tahir",
-        wicket:"wickets : 6",
-        matches:"Matches: 3",
-        team:"CSK"
+        image:"https://akm-img-a-in.tosshub.com/indias/story/201904/imrantahircskvrr010419_0.jpeg?IqpxXqvL2ZQoNZMk3FMWa5w5bAVV2fF2",
+        name:"Y Chahal",
+        wicket:"wickets : 8",
+        matches:"Matches: 4",
+        team:"CSK/"
     }
 ]
 export default capHolder;
