@@ -133,14 +133,14 @@
       date:"Wednesday 3rd April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Wankhede",
-      winner:"MI-",by:"37 Runs"   },
+      winner:"MI",by:"37 Runs"   },
    {
       id:16,
       teams:"DC VS SRH",
       date:"Thursday 4th April",
       timing:" 20:00 IST(14:30 GMT)",
       venue:"Delhi",
-      winner:"-",by:"-"
+      winner:"SRH",by:"5 Wickets"
    },
    {
       id:17,
