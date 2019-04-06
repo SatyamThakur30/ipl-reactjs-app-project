@@ -17,7 +17,7 @@ const capHolder = [
         name:"Y Chahal",
         wicket:"wickets : 9",
         matches:"Matches: 5",
-        team:"CSK/"
+        team:"RCB"
     }
 ]
 export default capHolder;
