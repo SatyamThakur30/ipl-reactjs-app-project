@@ -156,7 +156,7 @@
       date:"Saturday 6th April",
       timing:"16:00 IST(10:30 GMT)",
       venue:"Chennai",
-      winner:"-",by:"-",
+      winner:"CSK",by:"22 Runs",
    },
    {
       id:19,
