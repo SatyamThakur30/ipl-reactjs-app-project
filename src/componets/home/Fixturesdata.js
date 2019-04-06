@@ -164,7 +164,7 @@
       date:"Saturday 6th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"RGI,Hyderabad",
-      winner:"-",by:"-"
+      winner:"MI",by:"40 Runs"
    },
    {
       id:20,
