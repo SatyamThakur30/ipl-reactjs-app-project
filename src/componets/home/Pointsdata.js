@@ -11,12 +11,12 @@ const pointstable = [
     {
         team:"MI",
         logo:"./teamslogo/mi.png",
-        played:4,
-        won:2,
+        played:5,
+        won:3,
         loss:2,
 
-        points:4,
-        rr:-0.087
+        points:6,
+        rr:0.342
         
     },
     {
@@ -31,11 +31,11 @@ const pointstable = [
     {
         team:"SRH",
         logo:"./teamslogo/srh.png",
-        played:4,
+        played:5,
         won:3,
-        loss:1,
+        loss:2,
         points:6,
-        rr:+1.74
+        rr:+1.00
     },
     {
         team:"RR",
