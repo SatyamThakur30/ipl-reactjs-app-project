@@ -148,7 +148,7 @@
       date:"Friday 5th April ",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Bangalore",
-      winner:"-",by:"-"
+      winner:"KKR",by:"5 Wickets"
    },
    {
       id:18,
