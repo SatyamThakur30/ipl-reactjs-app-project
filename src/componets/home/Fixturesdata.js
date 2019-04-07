@@ -172,7 +172,7 @@
       date:"Sunday 7th April ",
       timing:"16:00 IST(10:30 GMT)",
       venue:"Bengaluru",
-      winner:"-",by:"-"
+      winner:"DC",by:"4 Wickets"
    },
    {
       id:21,
