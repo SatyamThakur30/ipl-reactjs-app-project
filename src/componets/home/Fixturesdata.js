@@ -192,7 +192,7 @@
    },
    {
       id:23,
-      teams:"CSK cs KKR",
+      teams:"CSK vs KKR",
       date:"Tuesday 9th April ",
       timing:"20:00 IST(14:30 GMT) ",
       venue:"Chennai",
