@@ -188,7 +188,7 @@
       date:"Monday 8th April",
       timing:"20:00 IST(14:30 GMT) ",
       venue:"Mohali",
-      winner:"-",by:"-"
+      winner:"KXIP",by:"6 Wickets"
    },
    {
       id:23,
