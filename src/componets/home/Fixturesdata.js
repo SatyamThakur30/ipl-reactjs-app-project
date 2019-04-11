@@ -212,7 +212,7 @@
       date:"Thursday 11th April ",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Jaipur",
-      winner:"-",by:"-"
+      winner:"CSK",by:"4 Wickets"
    },
    {
       id:26,
