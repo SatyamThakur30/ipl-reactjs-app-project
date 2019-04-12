@@ -220,7 +220,7 @@
       date:"Friday 12th April",
       timing:"20:00 IST(14:30 GMT) ",
       venue:"Eden Garden",
-      winner:"-",by:"-"
+      winner:"DC",by:"7 Wickets"
    },
    {
       id:27,
