@@ -228,7 +228,7 @@
       date:"Saturday 13th April",
       timing:"16:00 IST(10:30 GMT) ",
       venue:"Wankhede",
-      winner:"-",by:"-"
+      winner:"RR",by:"4 Wickets"
    },
    {
       id:28,
