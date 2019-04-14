@@ -244,7 +244,7 @@
       date:"Sunday 14th April ",
       timing:"16:00 IST(10:30 GMT) ",
       venue:"Eden Garden",
-      winner:"-",by:"-"
+      winner:"CSK",by:"5 Wickets"
    },
    {
       id:30 ,
