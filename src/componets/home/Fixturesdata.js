@@ -252,7 +252,8 @@
       date:"Sunday 14th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"RGI Hyderabad",
-      winner:"-",by:"-"
+      winner:"DC",
+    by:"39 Runs"
    },
    {
       id:31,
