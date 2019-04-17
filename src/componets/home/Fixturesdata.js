@@ -278,7 +278,7 @@
       date:"Wednesday 17th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"RGI Hyderabad",
-      winner:"-",by:"-"
+      winner:"SRH",by:"6 Wickets"
    },
    {
       id:34,
