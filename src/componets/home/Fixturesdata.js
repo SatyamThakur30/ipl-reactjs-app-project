@@ -270,7 +270,7 @@
       date:"Tuesday 16th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Mohali",
-      winner:"-",by:"-"
+      winner:"KXIP",by:"12 Runs"
       },
    {
       id:33,
