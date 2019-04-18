@@ -286,7 +286,7 @@
       date:"Thursday 18th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Delhi",
-      winner:"-",by:"-"
+      winner:"MI",by:"40 Runs"
      },
    {
       id:35,
