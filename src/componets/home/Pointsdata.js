@@ -34,7 +34,7 @@ const pointstable = [
         played:8,
         won:4,
         loss:4,
-        points:7,
+        points:8,
         rr:+0.550
     },
     {
