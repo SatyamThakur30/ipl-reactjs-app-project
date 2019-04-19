@@ -294,7 +294,7 @@
       date:"Friday 19th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Eden Garden",
-      winner:"-",by:"-"
+      winner:"RCB",by:"10 Runs"
    },
    {
       id:36,
