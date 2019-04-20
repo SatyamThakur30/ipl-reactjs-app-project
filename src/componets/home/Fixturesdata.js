@@ -302,7 +302,7 @@
       date:"Saturday 20th April",
       timing:"16:00 IST(10:30 GMT)",
       venue:"Jaipur",
-      winner:"-",by:"-"
+      winner:"RR",by:"5 Wickets"
    },
    {
       id:37,
