@@ -310,7 +310,7 @@
       date:"Saturday 20th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Delhi",
-      winner:"-",by:"-"
+      winner:"DC",by:"5 Wickets"
    
    },
    {
