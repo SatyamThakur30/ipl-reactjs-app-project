@@ -67,11 +67,11 @@ const pointstable = [
     {
         team:"KXIP",
         logo:"./teamslogo/pj.png",
-        played:9,
+        played:10,
         won:5,
-        loss:4,
+        loss:5,
         points:10,
-        rr:-0.013
+        rr:-0.044
        
     },
 ]
