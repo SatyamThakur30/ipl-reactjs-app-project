@@ -335,7 +335,7 @@
       date:"Monday 22nd April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Jaipur",
-      winner:"-",by:"-"
+      winner:"DC",by:"6 Wickets"
    },
    {
       id:41,
