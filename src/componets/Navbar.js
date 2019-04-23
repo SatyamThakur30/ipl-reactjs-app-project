@@ -9,7 +9,7 @@ export default class Navbar extends Component {
         <Link to="/"><img src={logo} alt="logo" width="50" style={{}}></img></Link>
         <ul className="linklist">
             <Link to="/"><li className="link"><strong>Home</strong></li></Link>
-           <Link to ="/squards"> <li className="link"><strong>Squads</strong></li></Link>
+           <Link to ="/squard"> <li className="link"><strong>Squads</strong></li></Link>
             <Link to ="/records"><li className="link"><strong>Records</strong></li></Link>
         </ul>
     </nav>
