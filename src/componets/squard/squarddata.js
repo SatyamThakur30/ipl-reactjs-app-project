@@ -32,8 +32,8 @@ const squardData =[
     team:"Rajasthan Royals ",
     logo:"./teamslogo/rrr.png",
     banner:"./squardwall/rrb.jpg",
-    captain:"Ajinkre Rahane",
-    squard:" Krishnappa Gowtham, Sanju Samson, Shreyas Gopal, Aryaman Birla, S. Midhun, Prashant Chopra, Stuart Binny, Rahul Tripathi, Dhawal Kulkarni,Jaydev Unadkat, Varun Aaron,  Shashank Singh,  Shubham Rajane, Manan Vohra, Riyan Parag ",
+    captain:"Steve Smith",
+    squard:"Ajinkre Rahane Krishnappa Gowtham, Sanju Samson, Shreyas Gopal, Aryaman Birla, S. Midhun, Prashant Chopra, Stuart Binny, Rahul Tripathi, Dhawal Kulkarni,Jaydev Unadkat, Varun Aaron,  Shashank Singh,  Shubham Rajane, Manan Vohra, Riyan Parag ",
     overseas:"Ben Stokes, Steve Smith, Jos Buttler, Jofra Archer, Ish Sodhi,Oshane Thomas,Liam Livinstone , Ashton Turner, Mahipal Lomror."
     
 },
