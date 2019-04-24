@@ -22,11 +22,11 @@ const pointstable = [
     {
         team:"RCB",
         logo:"./teamslogo/rcb.png",
-        played:10,
-        won:3,
+        played:11,
+        won:4,
         loss:7,
-        points:6,
-        rr:-1.00
+        points:8,
+        rr:-0.683
     },
     {
         team:"SRH",
@@ -67,11 +67,11 @@ const pointstable = [
     {
         team:"KXIP",
         logo:"./teamslogo/pj.png",
-        played:10,
+        played:11,
         won:5,
-        loss:5,
+        loss:6,
         points:10,
-        rr:-0.044
+        rr:-0.117
        
     },
 ]
