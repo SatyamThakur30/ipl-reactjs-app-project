@@ -351,7 +351,7 @@
       date:"Wednesday 24th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Chinnaswamy",
-      winner:"-",by:"-"
+      winner:"RCB",by:"16 Runs"
    },
    {
       id:43,
