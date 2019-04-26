@@ -359,7 +359,7 @@
       date:"Thursday 25th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Eden Garden",
-      winner:"-",by:"-"
+      winner:"RR",by:"3 Wickets"
    },
    {
       id:44,
