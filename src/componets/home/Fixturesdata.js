@@ -367,7 +367,7 @@
       date:"Friday 26th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Chennai",
-      winner:"-",by:"-"
+      winner:"MI",by:"46 Runs"
    },
    {
       id:45,
