@@ -391,7 +391,7 @@
       date:"Sunday 28th April",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Eden Garden",
-      winner:"-",by:"-"
+      winner:"KKR",by:"34 Runs"
    },
    {
       id:48,
