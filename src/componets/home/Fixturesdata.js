@@ -383,7 +383,7 @@
       date:"Sunday 28th April",
       timing:"16:00 IST(10:30 GMT)",
       venue:"Delhi",
-      winner:"-",by:"-"
+      winner:"DC",by:"16 Runs"
      },
    {
       id:47,
