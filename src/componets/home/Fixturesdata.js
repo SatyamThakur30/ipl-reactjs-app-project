@@ -415,7 +415,7 @@
       date:"Wednesday 1st May",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Cheenai",
-      winner:"-",by:"-"
+      winner:"CSK",by:"80 Runs"
    },
    {
       id:51,
