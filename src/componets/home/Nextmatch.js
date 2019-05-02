@@ -10,7 +10,7 @@ export default class Nextmatch extends Component {
    }
    async componentDidMount(){
     try {
-        const match1 = await this.state.data.filter((item)=>item.id ==51);
+        const match1 = await this.state.data.filter((item)=>item.id ==52);
        
         this.setState({
             data:match1
