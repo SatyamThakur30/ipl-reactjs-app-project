@@ -9,7 +9,7 @@ const pointstable = [
         rr:0.210
     },
     {
-        team:"MI",
+        team:"Q MI",
         logo:"./teamslogo/mi.png",
         played:13,
         won:8,
