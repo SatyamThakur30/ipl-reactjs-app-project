@@ -1,6 +1,6 @@
 const pointstable = [
     {
-        team:"CSK",
+        team:"Q CSK",
         logo:"./teamslogo/csk.png",
         played:13,
         won:9,
@@ -11,11 +11,11 @@ const pointstable = [
     {
         team:"MI",
         logo:"./teamslogo/mi.png",
-        played:12,
-        won:7,
+        played:13,
+        won:8,
         loss:5,
 
-        points:14,
+        points:16,
         rr:0.349
         
     },
@@ -31,9 +31,9 @@ const pointstable = [
     {
         team:"SRH",
         logo:"./teamslogo/srh.png",
-        played:12,
+        played:13,
         won:6,
-        loss:6,
+        loss:7,
         points:12,
         rr:+0.704
     },
@@ -56,7 +56,7 @@ const pointstable = [
         rr:1.00
     },
     {
-        team:"DC",
+        team:"Q DC",
         logo:"./teamslogo/dc.png",
         played:13,
         won:8,
