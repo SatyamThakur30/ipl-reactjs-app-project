@@ -423,7 +423,7 @@
       date:"Thursday 2nd May",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Wankhede",
-      winner:"-",by:"-"
+      winner:"MI",by:"3 balls in superover"
    },
    {
       id:52,
