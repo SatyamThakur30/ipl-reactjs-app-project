@@ -431,7 +431,7 @@
       date:"Friday 3rd MAy",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Mohali",
-      winner:"-",by:"-"
+      winner:"KKR",by:"& Wickets"
    },
    {
       id:53,
