@@ -65,7 +65,7 @@ const slideimages = [
     './slides/pj.jpg',
     './slides/srh.jpg',
     './slides/rr.jpg',
-    './slides/dd.jpeg',
+    './slides/dc.jpg',
 
     ];
    
