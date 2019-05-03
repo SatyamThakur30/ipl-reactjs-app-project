@@ -26,7 +26,7 @@ export default class Fixtures extends Component {
              {this.state.fixtures.map((info)=>{
                  return(
                      <tr>
-                         <td>{info.match}</td>
+                         <td><strong>{info.match}</strong></td>
                          <td><strong>{info.teams}</strong></td>
                          <td>{info.date}</td>
                          <td>{info.timing}</td>
