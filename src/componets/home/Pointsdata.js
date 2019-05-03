@@ -49,11 +49,11 @@ const pointstable = [
     {
         team:"KKR",
         logo:"./teamslogo/kkr.png",
-        played:11,
-        won:5,
+        played:13,
+        won:6,
         loss:7,
-        points:10,
-        rr:1.00
+        points:12,
+        rr:1.73
     },
     {
         team:"DC(Q)",
@@ -67,11 +67,11 @@ const pointstable = [
     {
         team:"KXIP",
         logo:"./teamslogo/pj.png",
-        played:12,
+        played:13,
         won:5,
-        loss:7,
+        loss:8,
         points:10,
-        rr:-0.297
+        rr:-0.321
        
     },
 ]
