@@ -7,6 +7,7 @@ import Nextmatch from './home/Nextmatch'
 import Logoslideshow from './home/Logoslideshow'
 import SquardHome from './home/SquardHome'
 import Homerecords from './homerecords/Homerecords'
+import Playoff from './home/Playoff'
 import './home.css'
 export default class Home extends Component {
   render() {
@@ -21,6 +22,7 @@ export default class Home extends Component {
     <Nextmatch></Nextmatch>
      </section>
     </div>
+      <Playoff></Playoff>
         <Pointstable></Pointstable>
       <Fixtures></Fixtures>
       <SquardHome></SquardHome>
