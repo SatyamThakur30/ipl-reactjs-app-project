@@ -448,7 +448,7 @@
       date:"Saturday 4th May",
       timing:"20:00 IST(14:30 GMT)",
       venue:"Bengaluru",
-      winner:"-",by:"-"
+      winner:"RCB",by:"4 Wickets"
    },
    {
       id:55,
