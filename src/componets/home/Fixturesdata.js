@@ -439,7 +439,8 @@
       date:"Saturday 4th May",
       timing:"16:00 IST(10:30 GMT)",
       venue:"Delhi",
-      winner:"-",by:"-"
+      winner:"DC",by:"5 Wickets"
+
    },
    {
       id:54,
