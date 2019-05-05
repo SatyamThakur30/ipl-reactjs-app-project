@@ -40,7 +40,7 @@ export default class Nextmatch extends Component {
                  <div className="content-container">
                  <section className="content">
                  <p>Match:<strong>{item.match}</strong></p>
-                  <p>Teams:{item.teams}</p>
+                  <p>Teams:<strong>{item.teams}</strong></p>
                   <p>Schedule:{item.date} {item.timing}</p>
             
                   <p>Venue:{item.venue}</p>
