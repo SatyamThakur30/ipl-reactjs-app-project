@@ -456,7 +456,7 @@
       date:"Sunday 5th May",
       timing:"16:00 IST(10:30 GMT)",
       venue:"Mohali",
-      winner:"-",by:"-"
+      winner:"KXIP",by:"6 Wickets"
    },
    {
       id:56,
