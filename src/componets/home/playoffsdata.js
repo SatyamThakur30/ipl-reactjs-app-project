@@ -3,7 +3,7 @@ const playoffs=[
     {
         id:1,
         match:"Qualifier 1",
-        teams:"Team1 vs Team2",
+        teams:"CSK vs MI",
         date:"Tuesday 7th May",
         timing:"7:30 IST(14:00 GMT)",
         venue:" M. A. Chidambaram Stadium, Chennai",
@@ -12,7 +12,7 @@ const playoffs=[
     {
         id:2,
         match:"Eliminator",
-        teams:"Team2 vs Team4",
+        teams:"DC vs SRH",
         date:"Wednesday 8th May",
         timing:"7:30 IST(14:00 GMT)",
         venue:"ACA-VDCA Stadium, Visakhapatnam",
