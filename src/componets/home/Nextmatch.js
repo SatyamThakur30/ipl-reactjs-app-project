@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import Fixturesdata from './Fixturesdata'
+import playoffs from './playoffsdata'
 import Lastupdate from './Lastupdate'
 import Capholder from './Capholder'
 import './nextmatch.css'
 
 export default class Nextmatch extends Component {
    state= {
-       data:Fixturesdata
+       data:playoffs
    }
    async componentDidMount(){
     try {
@@ -39,7 +39,7 @@ export default class Nextmatch extends Component {
               return(
                  <div className="content-container">
                  <section className="content">
-                 <p>Match:<strong>{item.id}</strong></p>
+                 <p>Match:<strong>{item.match}</strong></p>
                   <p>Teams:{item.teams}</p>
                   <p>Schedule:{item.date} {item.timing}</p>
             
