@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import Fixturesdata from './Fixturesdata'
+import playoffs from './playoffsdata'
 import './lastupdate.css'
 export default class Lastupdate extends Component {
     state={
-        data:Fixturesdata
+        data: playoffs
     }
     async componentDidMount(){
         try {
-            const winner = await this.state.data.filter((item)=>item.id ==56);
+            const winner = await this.state.data.filter((item)=>item.id ==1);
            
             this.setState({
                 data:winner
