@@ -7,7 +7,7 @@ const playoffs=[
         date:"Tuesday 7th May",
         timing:"7:30 IST(14:00 GMT)",
         venue:" M. A. Chidambaram Stadium, Chennai",
-        winner:"MI",by:"6 Wickets"
+        winner:"MI",by:"6 Wicket"
     },
     {
         id:2,
