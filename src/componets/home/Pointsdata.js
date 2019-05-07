@@ -70,7 +70,7 @@ const pointstable = [
         played:14,
         won:6,
         loss:8,
-        points:10,
+        points:12,
         rr:-0.221
        
     },
