@@ -16,7 +16,7 @@ const playoffs=[
         date:"Wednesday 8th May",
         timing:"7:30 IST(14:00 GMT)",
         venue:"ACA-VDCA Stadium, Visakhapatnam",
-        winner:"-",by:"-"
+        winner:"DC",by:"2 Wickets"
     },
     {
         id:3,
