@@ -21,7 +21,7 @@ const playoffs=[
     {
         id:3,
         match:"Qualifier 2",
-        teams:"TBC vs TBC",
+        teams:"CSK vs DC",
         date:"Friday 10th May",
         timing:"7:30 IST(14:00 GMT)",
         venue:"ACA-VDCA Stadium, Visakhapatnam",
