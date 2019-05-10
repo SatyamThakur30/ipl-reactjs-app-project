@@ -25,12 +25,12 @@ const playoffs=[
         date:"Friday 10th May",
         timing:"7:30 IST(14:00 GMT)",
         venue:"ACA-VDCA Stadium, Visakhapatnam",
-        winner:"-",by:"-"
+        winner:"CSK",by:"6 Wickets"
     },
     {
         id:4,
         match:"Final",
-        teams:"MI vs TBC",
+        teams:"MI vs CSK",
         date:"Sunday 12th May",
         timing:"7:30 IST(14:00 GMT)",
         venue:"Rajiv Gandhi Intl. Cricket Stadium, Hyderabad",
