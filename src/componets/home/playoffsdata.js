@@ -30,7 +30,7 @@ const playoffs=[
     {
         id:4,
         match:"Final",
-        teams:"TBC vs TBC",
+        teams:"MI vs TBC",
         date:"Sunday 12th May",
         timing:"7:30 IST(14:00 GMT)",
         venue:"Rajiv Gandhi Intl. Cricket Stadium, Hyderabad",
