@@ -34,7 +34,7 @@ const playoffs=[
         date:"Sunday 12th May",
         timing:"7:30 IST(14:00 GMT)",
         venue:"Rajiv Gandhi Intl. Cricket Stadium, Hyderabad",
-        winner:"-",by:"-"
+        winner:"MI",by:"1 Run"
     }
 ]
 export default playoffs;
