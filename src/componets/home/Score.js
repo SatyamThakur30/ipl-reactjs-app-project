@@ -38,7 +38,7 @@ export default class score extends Component {
        this.state.liveData.map((item)=>{
          return(
            <div className="score">
-             <p><strong>{item.title}</strong></p>
+             <p><strong>MI Champion</strong></p>
             
           </div>
 
