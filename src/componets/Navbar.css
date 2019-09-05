@@ -10,7 +10,11 @@
 .navbar-container{
   background-image: -webkit-gradient(linear,left top, right top,from(rgb(4, 4, 51)),to(rgb(37, 37, 134)));
   background-image: linear-gradient(to right,rgb(4, 4, 51),rgb(37, 37, 134));
-  
+     position: sticky;
+     position: -webkit-sticky;
+     top:0rem;
+     z-index: 2;
+
     color: whitesmoke;
     display:grid;
     grid-template-columns: auto 1fr;
